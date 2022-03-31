@@ -1,0 +1,952 @@
+@font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Chivo Light Italic'), local('Chivo-LightItalic'), url(https://fonts.gstatic.com/s/chivo/v11/va9D4kzIxd1KFrBteUp9gK_uQQ.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Chivo Italic'), local('Chivo-Italic'), url(https://fonts.gstatic.com/s/chivo/v11/va9G4kzIxd1KFrBtceFfkA.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Chivo Bold Italic'), local('Chivo-BoldItalic'), url(https://fonts.gstatic.com/s/chivo/v11/va9D4kzIxd1KFrBteVp6gK_uQQ.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Chivo Black Italic'), local('Chivo-BlackItalic'), url(https://fonts.gstatic.com/s/chivo/v11/va9D4kzIxd1KFrBteWJ4gK_uQQ.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Chivo Light'), local('Chivo-Light'), url(https://fonts.gstatic.com/s/chivo/v11/va9F4kzIxd1KFrjDY_Z4sKg.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Chivo Regular'), local('Chivo-Regular'), url(https://fonts.gstatic.com/s/chivo/v11/va9I4kzIxd1KFrBoQeY.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Chivo Bold'), local('Chivo-Bold'), url(https://fonts.gstatic.com/s/chivo/v11/va9F4kzIxd1KFrjTZPZ4sKg.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Chivo Black'), local('Chivo-Black'), url(https://fonts.gstatic.com/s/chivo/v11/va9F4kzIxd1KFrjrZvZ4sKg.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Saira Thin'), local('Saira-Thin'), url(https://fonts.gstatic.com/s/saira/v4/mem-Ya2wxmKQyNFEfZE1Ug.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Saira ExtraLight'), local('Saira-ExtraLight'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNHobIYScr0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Saira Light'), local('Saira-Light'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNGMb4YScr0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Saira Regular'), local('Saira-Regular'), url(https://fonts.gstatic.com/s/saira/v4/memwYa2wxmKQyNknTZY.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Saira Medium'), local('Saira-Medium'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNHUboYScr0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Saira SemiBold'), local('Saira-SemiBold'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNH4aYYScr0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Saira Bold'), local('Saira-Bold'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNGcaIYScr0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Saira ExtraBold'), local('Saira-ExtraBold'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNGAa4YScr0.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Saira ExtraCondensed Thin'), local('SairaExtraCondensed-Thin'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFsOHYr-vcC7h8MklGBkrvmUG9rbpkisrTri3j2_Co.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Saira ExtraCondensed ExtraLight'), local('SairaExtraCondensed-ExtraLight'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrJ2nh2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Saira ExtraCondensed Light'), local('SairaExtraCondensed-Light'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrQ2rh2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Saira ExtraCondensed Regular'), local('SairaExtraCondensed-Regular'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFiOHYr-vcC7h8MklGBkrvmUG9rbpkisrTj6Ejx.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Saira ExtraCondensed Medium'), local('SairaExtraCondensed-Medium'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vh2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Saira ExtraCondensed SemiBold'), local('SairaExtraCondensed-SemiBold'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrN2zh2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Saira ExtraCondensed Bold'), local('SairaExtraCondensed-Bold'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23h2wpk.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Saira ExtraCondensed ExtraBold'), local('SairaExtraCondensed-ExtraBold'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrT27h2wpk.ttf) format('truetype');
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  * {
+    box-sizing: border;
+    padding: 0px;
+    margin: 0px;
+    /* filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797'); */
+  }
+  #welcome {
+    display: flex;
+    flex-direction: column;
+    background-color: #000030;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    /* background:  #000030; */
+    background: black;
+    clear: both;
+  }
+  
+  .cna-logo {
+      width: 20vw;
+      margin: -30px auto;
+      padding: 0px;
+  }
+  
+  #register-btn:hover{
+        color: #000030 !important;
+  }
+
+  #register-btn > a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .welcome-title {
+    color: white;
+    font-family: 'Raleway';
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  .welcome-title > h1 {
+    font-size: 3rem;
+  }
+  .welcome-title > p {
+    font-size: 0.8em;
+  }
+  #welcome > button {
+    margin: 30px auto 0px auto;
+    padding: 20px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+    text-align: center;
+    border: 3px solid white;
+    font-weight: bold;
+    background: #000030;
+    color: white;
+  }
+  #welcome > button:hover {
+    background:#0f4c75;
+    color: white !important;
+  }
+  #cna,
+  #cna > a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 0.9em;
+    margin: 20px auto;
+  }
+  .cna-link {
+    text-decoration: none;
+    color: #000030;
+  }
+  .section-layout {
+    margin: 0px;
+    /*margin: 0px;
+    display: grid;
+    grid-template-columns: 20vw auto;
+    width: 100%;
+    justify-items: stretch;*/
+  }
+  #navigation {
+    display: inline-flex;
+    flex-direction: column;
+    width: 20vw;
+    min-width: 15vw;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    float: left;
+    height: 100%;
+    /*width: 33.33%;
+    min-width: 25%;
+    margin: 0px;
+    float: left;*/
+    /*margin: 2.5%;*/
+    text-align: left;
+    padding: 0px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10;
+  }
+  .nav-link {
+    margin: 0px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: 'Saira', calibri;
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #000030;
+    text-transform: capitalize;
+  }
+  .nav-link:hover {
+    background: #f2f2f2;
+  }
+  .nav-link:active,
+  .navigation:active {
+    background: #f2f2f2;
+  }
+
+  .flex-container {
+    display: flex;
+    /* background-color: DodgerBlue; */
+  }
+  
+  .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+      height: 20vh;
+
+    }
+.flex-container > div > .card {
+    width: 15%;
+}
+  .register-nav {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: inset 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    color: #000030;
+  }
+  button {
+    margin: 10px auto;
+    border: none;
+    padding: 20px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-weight: bold;
+    background: #000030;
+    color: white;
+  }
+  button:hover {
+    background: white;
+    color: #000030;
+    border: 3px solid #1f262a;
+  }
+  .right-content {
+    /* grid-column-start: 2;*/
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+  }
+  h2 {
+    font-family: 'Saira', calibri;
+    color: #1f262a;
+    color: #000030;
+    font-size: 2.75em;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: 'Raleway', calibri;
+    letter-spacing: 2px;
+    color: #000030;
+  }
+  p {
+    font-family: 'Lato', calibri;
+    text-align: justify;
+    font-size: 1.05em;
+    color: #000030;
+  }
+  #summary {
+    grid-area: content;
+    display: grid;
+    grid-template-areas: "duration prerequisite projects";
+    justify-items: center;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-botom: 50px;
+  }
+  #duration {
+    grid-area: duration;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-left: 2px solid darkgray;
+  }
+  #prerequisite {
+    grid-area: prerequisite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-left: 2px solid darkgray;
+  }
+  #num-projects {
+    grid-area: projects;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-left: 2px solid darkgray;
+  }
+  .sum-title {
+    font-size: 1.7em;
+    color: #000030;
+    text-align: left;
+    font-family: 'Lato', calibri;
+  }
+  .sum-value {
+    font-size: 1.3em;
+    color: #000030;
+    text-align: left;
+    font-family: 'Lato', calibri;
+  }
+  /* Testimonials */
+  blockquote {
+    margin: 10px 50px;
+    padding: 0.5em;
+    border-left: 5px solid #999;
+    font-size: 3em;
+  }
+  blockquote:before {
+    display: none;
+  }
+  blockquote:not(:first-of-type) {
+    margin-top: 0.5em;
+  }
+  blockquote p {
+    color: #555;
+    font-size: 15pt;
+    line-height: 1.4;
+    font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  }
+  blockquote footer {
+    margin-top: 0.5em;
+    padding: 0;
+    color: #777;
+    font-size: 12pt;
+    text-align: left;
+    font-style: italic;
+  }
+  blockquote footer:before {
+    content: '— ';
+  }
+  blockquote:nth-of-type(even) {
+    text-align: right;
+    border-left: none;
+    border-right: 5px solid #999;
+  }
+  blockquote:nth-of-type(even) footer {
+    text-align: right;
+  }
+  blockquote:nth-of-type(even) footer:before {
+    content: '';
+  }
+  blockquote:nth-of-type(even) footer:after {
+    content: ' —';
+  }
+  @element 'blockquote' and (min-width: 300px) {
+    blockquote {
+      padding: 1em 20% 1em 1em;
+    }
+    blockquote p {
+      font-size: 14pt;
+    }
+    blockquote:nth-of-type(even) {
+      padding: 1em 1em 1em 20%;
+    }
+   
+  }
+  /* Timeline */
+  /* Import */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs169vsUZiYA.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYA.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUZiYA.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype');
+  }
+  /* Variables */
+  /* Base */
+  strong {
+    font-weight: 600;
+  }
+  #content {
+    margin-top: 30px;
+    text-align: center;
+  }
+  /* Timeline */
+  .timeline {
+    border-left: 4px solid #4298C3;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(37, 40, 39, 0.03);
+    color: rgba(37, 40, 39, 0.8);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 30px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 70%;
+  }
+  .timeline h1,
+  .timeline h2,
+  .timeline h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-size: 1.4em;
+  }
+  .timeline .event {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px dashed rgba(37, 40, 39, 0.1);
+    padding-bottom: 15px;
+    padding: auto;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+  .timeline .event:before,
+  .timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  .timeline .event:before {
+    left: -187.5px;
+    color: rgba(0, 0, 0, 0.4);
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+  }
+  .timeline .event:after {
+    box-shadow: 0 0 0 4px #4298c3;
+    left: -37.85px;
+    background: #313534;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+    top: 5px;
+  }
+  .project-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+  }
+  .project-tile,
+  .project-tile > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 10vw;
+    position: relative;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .project-tile:hover .image {
+    opacity: 0.3;
+  }
+  .project-tile:hover .middle {
+    opacity: 1;
+  }
+  .pr-text {
+    color:#000030;
+    font-size: 16px;
+    padding: 16px 32px;
+    radius: 50%;
+    font-family: 'Lato', calibri;
+    text-align: center;
+  }
+  .team {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evely;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .card {
+    position: relative;
+    width: 30%;
+    height: 50vh;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  .card:before,
+  .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index: -1;
+  }
+  .card:hover:before {
+    transform: rotate(20deg);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card:hover:after {
+    transform: rotate(10deg);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card .imgBx {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #222;
+    transition: 0.5s;
+    z-index: 1;
+  }
+  .card:hover .imgBx {
+    bottom: 80px;
+  }
+  .card .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card .details {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 60px;
+    text-align: center;
+  }
+  .card .details h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+    text-transform: uppercase;
+  }
+  .card .details h2 span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #f38695;
+    display: block;
+    margin-top: 5px;
+  }
+  /* Contacts */
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+  }
+  /* Mobile Optimization */
+  @media (max-width: 1000px) {
+      
+      #welcome {
+    height: 50vh;
+  }
+  
+  .welcome-title > h1 {
+    font-size: 4rem;
+  }
+  .welcome-title > p {
+    font-size: 1.8em;
+  }
+  #welcome > button {
+    margin: 15vw auto 0px auto;
+    padding: 20px;
+    font-size: 3em;
+    letter-spacing: 6px;
+    border: 6px solid white;
+  
+  }
+  
+  
+    .section-layout {
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+      padding: 0px 10px;
+      align-items: center;
+    }
+    #navigation {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      max-width: 100vw;
+      width: 98vw;
+      min-width: 80vw;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0px;
+      margin: 0px;
+      /*width: 33.33%;
+    min-width: 25%;
+    margin: 0px;
+    float: left;*/
+      /*margin: 2.5%;*/
+      text-align: left;
+      padding: 0px;
+      background: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      z-index: 10;
+      overflow: hidden;
+    }
+    .register-nav {
+      display: none;
+    }
+    .nav-link {
+      margin: 0px;
+      padding: 25px 8px;
+      text-decoration: none;
+      font-family: 'Saira', calibri;
+      font-size: 2em;
+      letter-spacing: 0.5px;
+      font-weight: bold;
+      color: #000030;
+      text-transform: capitalize;
+    }
+    .right-content {
+      /* grid-column-start: 2;*/
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      margin: 0px;
+      max-width: 100vw;
+      align-items: center;
+    }
+    h2 {
+      font-family: 'Saira', calibri;
+      color: #1f262a;
+      color: #000030;
+      font-size: 5em;
+      margin-bottom: 25px;
+      font-weight: normal;
+    }
+    h3 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+      font-family: 'Raleway', calibri;
+      letter-spacing: 0.8px;
+      color: #1f262a;
+    }
+    p {
+      font-family: 'Lato', calibri;
+      text-align: justify;
+      font-size: 1em;
+      line-height: 2em;
+      color: #1f262a;
+    }
+    blockquote {
+      margin: 7px 10px;
+    }
+    blockquote p {
+      font-size: 18pt;
+      line-height: 1.2;
+    }
+      .timeline {
+      margin-left: 50px;
+      max-width: 98%;
+      font-size: 2em;
+      
+      h1, h2, h3 {
+        font-size: 2.5em;
+      }
+    }
+      #projects {
+      width: 80vw;
+      margin: 10px;
+      padding: 0px;
+    }
+    
+    .project-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+    }
+    .project-tile {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 40vw;
+      position: relative;
+      margin: 25px auto;
+    }
+    .sum-title {
+      font-size: 5vw;
+    }
+    .sum-value {
+      font-size: 3vw;
+    }
+    
+    .suga-container {
+        max-width: 90vw;
+    }
+    .team {
+      width: 60vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evely;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin: auto;
+      padding: auto;
+    }
+    .card {
+      width: 100%;
+      height: 40vh;
+    }
+    
+  }
+  /* Contacts */
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+    padding: 0 0rem;
+    background: #363636;
+    color: #f0f0f0;
+    margin: 0px;
+  }
+  .contact-section-header > h2 {
+    font-size: 5rem;
+    color: #f0f0f0;
+  }
+  .register-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60vw;
+    min-width: 30vw;
+    margin: 40px auto;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  @media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+  }
+  .contact-section-header > p {
+    font-style: italic;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    color: #f0f0f0;
+    flex-wrap: wrap;
+  }
+  .contact-details {
+    font-size: 1.5rem;
+    text-shadow: 1px 0px 0px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    color: darkgray;
+    padding: 20px 10px;
+  }
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
+  .fa-instagram {
+    background:white;
+    color: black;
+  }
