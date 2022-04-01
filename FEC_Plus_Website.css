@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap');
 .outfit {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Outfit', sans-serif !important;
 }
 .minus1margin {
   margin-bottom: -1rem;
@@ -310,6 +310,30 @@
     background: white;
     color: #000030;
     border: 3px solid #39B54A;
+  }
+  .curriculumButton {
+    border: 3px solid #000030;
+    padding: 20px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-weight: bold;
+    /* background: #000030; */
+    color: #000030;
+  }
+  .curriculumButton:disabled {
+    border: 3px solid gray;
+    background: gray;
+  }
+  .curriculumButton:hover {
+    background: white;
+    color: #000030;
+    border: 3px solid #39B54A;
+  }
+  .curriculumButton:hover:disabled {
+    border: 3px solid gray;
+    background: gray;
   }
   .navbutton {
     margin: 10px auto;
