@@ -3,6 +3,7 @@ var welcome = document.getElementById('welcome');
 var logo = document.getElementById('logo');
 var welcomeTitle = document.getElementById('welcomeTitle');
 var registerBtn = document.getElementById('register-btn');
+var assignment1 = document.getElementById('ass1');
 if (window.innerWidth < 1000) {
     dividerLine.style.display = 'none';
     welcome.style.flexDirection = 'column';
@@ -14,4 +15,6 @@ if (window.innerWidth < 1000) {
     welcomeTitle.style.fontSize = '1.5rem';
     registerBtn.style.padding = "45px 75px";
     registerBtn.style.fontSize = '2rem';
+    assignment1.style.flexDirection = 'column';
+    assignment1.style.alignItems = 'flex-start';
 }
