@@ -82,3 +82,309 @@ a{
     padding-left: 2%;
     color:white;
 }
+
+
+
+.Intro
+{
+    position: relative;
+    width: 255.98px;
+    height: 15.82px;
+    left: 175.4px;
+    top: 50px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    
+    color: #63BB54;
+    
+}
+.How
+{
+    position: relative;
+width: 383px;
+height: 57px;
+left: 175px;
+top: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 41px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+.text1
+{
+    position: relative;
+width: 454px;
+height: 84px;
+left: 175px;
+top: -10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+font-feature-settings: 'liga' off;
+
+color: #8896AB;
+}
+.DownloadFR
+{
+    position:relative;
+    color:#63BB54;
+    width: 383px;
+height: 57px;
+left: 175px;
+top: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 41px;
+letter-spacing: -0.02em;
+
+}
+.FRtext
+{
+    position: relative;
+    font-family: 'Inter';
+    font-size: 16;
+    font-style: normal;
+    color: #8896AB;
+    top:20px;
+    left:175px;
+    width:456;
+}
+.Social
+{   
+    position: relative;
+    width: 255.98px;
+    height: 15.82px;
+    left: 175.4px;
+    top: 50px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    
+    color: #63BB54;
+
+}
+.WhatDo
+{
+    position: relative;
+    width: 383px;
+    height: 57px;
+    left: 175px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+}
+.text2
+{
+    position: relative;
+    width: 1011px;
+    height: 84px;
+    left: 175px;
+    top: 30px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-feature-settings: 'liga' off;
+    
+    color: #8896AB;
+
+}
+.Rectangle1
+{
+    position: relative;
+   left:200px;
+   top:40px;
+}
+.FAText1
+{
+    position: relative;
+width: 383px;
+height: 57px;
+left: 204px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 41px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+    
+}
+.BootcampRes
+{
+   
+    position: relative;
+    width: 255.98px;
+    height: 15.82px;
+    left: 205px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    
+    color: #63BB54;
+
+
+}
+.Rectangle2
+{
+    position: relative;
+   left:600px;
+   top:40px;
+}
+.FAText2
+{
+    position: relative;
+width: 383px;
+height: 57px;
+left: 604px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 41px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+    
+}
+.week3
+{
+   
+    position: relative;
+    width: 255.98px;
+    height: 15.82px;
+    left: 605px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    
+    color: #63BB54;
+
+
+}
+.feclogoend
+{
+    position:relative;
+    width:60;
+    left:136px;
+    top:80px;
+}
+.FECPARA
+{
+    position:relative;
+    width:75;
+    height:36;
+    font-size: 10;
+    color:white;
+    font-family: 'Manrope';
+    top:15px;
+    left:178px;
+}
+.Blog
+{
+    position:relative;
+    left:337;
+    color:white;
+    
+    font-family: 'Manrope';
+    font-size: 12;
+    top:-20px;
+}
+.WriteToUs1
+{
+    position:relative;
+    left:426;
+    color:white;
+    top:-47px;
+    font-family: 'Manrope';
+    font-size: 12;
+    
+}
+.FAQ
+{
+    position:relative;
+    left:553;
+    color:white;
+    top:-75px;
+    font-family: 'Manrope';
+    font-size: 12;
+
+}
+.CopyRight
+{
+    position:relative;
+    left:633;
+    color:white;
+    top:-105px;
+    font-family: 'Manrope';
+    font-size: 12;
+}
+/* .Linkedin
+{
+    position: relative;
+    top:-135px;
+    left:980;
+}
+.Instagram
+{
+    position: relative;
+    top:-135px;
+    left:1080.7;
+}
+.Facebook
+{
+    position: relative;
+    top:-135px;
+    left:975;
+
+}
+.Youtube
+{
+    position: relative;
+    top:-135px;
+    left:1137;
+} */
