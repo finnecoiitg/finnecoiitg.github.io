@@ -10,14 +10,16 @@ a{
     text-align: center;
     color:white;
     display: flex;
-    font-size: 12px;
+    justify-content: center;
+    font-size: 15px;
     
 }
 #navbar figure{
     margin-left: 0%;
 }
 #navbar a{
-    margin: 3%;
+    margin: 2%;
+    margin-top: 3%;
     color:white;
     margin-bottom: 10%;
 }
@@ -77,4 +79,5 @@ a{
 }
 #main #right i{
     padding-left: 2%;
+    color:white;
 }
