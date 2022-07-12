@@ -927,6 +927,9 @@ color: #FFFFFF;
           text-decoration-thickness: 6px;
           text-underline-offset: 25px;
           margin-top: 100px;
+          position:absolute;
+          top:2350px;
+          cursor: pointer;
         }
     .regi{
         font-family: Manrope;
