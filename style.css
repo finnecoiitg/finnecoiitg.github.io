@@ -85,6 +85,8 @@ a{
 
 
 
+/* footer */
+
 .Intro
 {
     position: relative;
@@ -388,3 +390,157 @@ color: #FFFFFF;
     top:-135px;
     left:1137;
 } */
+
+
+/* Teams */
+
+.container{
+    margin: 0px;
+    position: relative;
+    left: 120px;
+    width: fit-content;
+  }
+
+  .alumniCorner {
+    margin-bottom: 20px;
+  }
+
+  .quant ,
+  .capital,
+  .defi,
+  .socials{
+    margin-bottom: 50px;
+  }
+
+  .greenLine{
+    color:  rgb(72, 171, 55);
+    font-weight: 600 ;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Manrope , sans-serif;
+  }
+
+  .greenHeading {
+    color: rgb(72, 171, 55);
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .whiteHeading {
+    color: rgb(255,255,255);
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 34px;
+    opacity: 1;
+    text-align: left;
+    
+  }
+  .Para {
+    color: rgba(255,255,255,0.8);
+    top: 74px;
+    left: 0px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .greenSubHeading{
+    color:  rgb(72, 171, 55);
+    font-weight: 800;
+    font-size: 18px;;
+  }
+
+  .subpoints{
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    font-weight: 200;
+    margin-right: 25px;
+  }
+
+
+
+
+
+  .bottom_boxes_container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+
+  }
+
+  .bottom_boxes {
+    width: 286px;
+    height: 384px;
+    background: rgb(0,0,0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  .bg_img {
+    width: 286px;
+    height: 133px;
+    background-image:url('assets/greenspiral.jpeg');
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .description_box {
+    width: 257px;
+    height: 214px;
+    font-family: Inter, sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+
+  .title {
+    width: 257px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .descp {
+    width: 247px;
+    color: rgba(255,255,255,0.8);
+    font-weight: Medium;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .name{
+    font-size: 12px;
+    color: rgba(255,255,255,0.8);
+    font-weight: 200;
+    position: absolute;
+    bottom: 20px;
+  }
+  .date{
+    font-size: 12px;
+    color: rgba(255,255,255,0.8);
+    font-weight: 200;
+    position: absolute;
+    left: 180px;
+    bottom: 20px;
+  }
+
+  
+
+.bg_rectangle{
+  background-color: rgba(20, 20, 20, 1);
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 1400px;
+  border-radius: 50px;
+}
