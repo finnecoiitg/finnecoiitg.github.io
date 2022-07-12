@@ -165,7 +165,7 @@ letter-spacing: -0.02em;
     color: #8896AB;
     top:20px;
     left:175px;
-    width:456;
+    width:456px;
 }
 .Social
 {   
@@ -308,60 +308,102 @@ color: #FFFFFF;
 
 
 }
-.feclogoend
+.FundamentalAnalysis
+{
+    position:absolute;
+    left:455px;
+    top:1870px;
+}
+.AlgoTrading
+{
+    position:absolute;
+    top:1870px;
+    left:350px;
+}
+.Frame44
 {
     position:relative;
-    width:60;
+    top:0px;
+    left:210px;
+    
+}
+.Frame45
+{
+    position:relative;
+    top:0px;
+    left:605px;
+    cursor: pointer;
+}
+.Frame44:hover{
+    cursor: pointer;
+}
+.downloadPara
+{
+    position:absolute;
+    top:1850px;
+    left:0px;
+}
+.feclogoend
+{
+    position:absolute;
+    width:70px;
     left:136px;
-    top:80px;
+    top:2240px;
+}
+.EndMargin
+{
+    margin-top:1100px;
+    width:1072px;
+    left:104px;
 }
 .FECPARA
 {
-    position:relative;
-    width:75;
-    height:36;
-    font-size: 10;
+    position:absolute;
+    width:80px;
+    
+    
+    font-size: 10px;
     color:white;
     font-family: 'Manrope';
-    top:15px;
+    top:2249px;
     left:178px;
 }
 .Blog
 {
-    position:relative;
-    left:337;
+    position:absolute;
+    left:337px;
     color:white;
     
     font-family: 'Manrope';
     font-size: 12;
-    top:-20px;
+    top:2249px;
 }
 .WriteToUs1
 {
-    position:relative;
-    left:426;
+    position:absolute;
+    left:426px;
     color:white;
-    top:-47px;
+    top:2249px;
     font-family: 'Manrope';
     font-size: 12;
     
 }
 .FAQ
 {
-    position:relative;
-    left:553;
+    position:absolute;
+    left:553px;
     color:white;
-    top:-75px;
+    top:2249px;
     font-family: 'Manrope';
     font-size: 12;
 
 }
 .CopyRight
 {
-    position:relative;
-    left:633;
+    position:absolute;
+    left:633px;
     color:white;
-    top:-105px;
+    top:2249px;
     font-family: 'Manrope';
     font-size: 12;
 }
@@ -382,7 +424,6 @@ color: #FFFFFF;
     position: relative;
     top:-135px;
     left:975;
-
 }
 .Youtube
 {
@@ -395,12 +436,10 @@ color: #FFFFFF;
 /* Teams */
 
 .container{
+    margin: 0px;
     position: relative;
     left: 120px;
     width: fit-content;
-    font-family: Inter , sans-serif;
-    font-size: 14px;
-    margin: 0px;
   }
 
   .alumniCorner {
@@ -411,7 +450,7 @@ color: #FFFFFF;
   .capital,
   .defi,
   .socials{
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 
   .greenLine{
@@ -433,7 +472,6 @@ color: #FFFFFF;
   .whiteHeading {
     color: rgb(255,255,255);
     margin-bottom: 15px;
-    margin-top: -10px;
     font-weight: 600;
     font-size: 34px;
     opacity: 1;
@@ -472,8 +510,7 @@ color: #FFFFFF;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 100px;
-    font-size: 14px;
-    font-family: Inter , sans-serif;
+
   }
 
   .bottom_boxes {
@@ -545,6 +582,7 @@ color: #FFFFFF;
   width: 100%;
   z-index: -1;
   position: absolute;
-  top: 1480px;
+  top: 1400px;
   border-radius: 50px;
 }
+
