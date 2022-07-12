@@ -2,6 +2,12 @@
 body{
     background-color: black;
 }
+
+p{
+  margin: 0px;
+  padding: 0px;
+}
+
 a{
     text-decoration: none;
 }
@@ -457,16 +463,31 @@ color: #FFFFFF;
 } */
 
 
-/* Teams */
+
+
+
+
+
+
+
+/* TEAMS */
+
+
+
+
+
 
 .container{
-    margin: 0px;
     position: relative;
     left: 120px;
     width: fit-content;
+    font-size: 14px; 
+    font-family: Inter , sans-serif;
+    padding: 0px;
+    margin: 0px;
   }
 
-  .alumniCorner {
+  .socialEmpowerment {
     margin-bottom: 20px;
   }
 
@@ -474,16 +495,33 @@ color: #FFFFFF;
   .capital,
   .defi,
   .socials{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 20px;
+    padding: 30px;
   }
 
-  .greenLine{
-    color:  rgb(72, 171, 55);
+  .horizontal_line{
+    width: 449px;
+    height: 5px;
+    background-color: rgb(72, 171, 55);
+    border: none;
+    border-radius: 50px;;
+    margin: 0px;
+    margin-top: 40px;
+  }
+
+
+  .inbetweenLine{
+    color: white;
     font-weight: 600 ;
     font-size: 25px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-family: Manrope , sans-serif;
+  }
+  .greenLine{
+    color: rgb(72, 171, 55);
   }
 
   .greenHeading {
@@ -492,11 +530,12 @@ color: #FFFFFF;
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    font-weight: 400;
   }
   .whiteHeading {
     color: rgb(255,255,255);
     margin-bottom: 15px;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 34px;
     opacity: 1;
     text-align: left;
@@ -506,7 +545,7 @@ color: #FFFFFF;
     color: rgba(255,255,255,0.8);
     top: 74px;
     left: 0px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
   }
 
@@ -519,7 +558,7 @@ color: #FFFFFF;
   .subpoints{
     color: rgba(255,255,255,0.8);
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 500;
     margin-right: 25px;
   }
 
@@ -534,12 +573,15 @@ color: #FFFFFF;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 100px;
+    font-size: 14px; 
+    font-family: Inter , sans-serif;
 
   }
 
   .bottom_boxes {
-    width: 286px;
-    height: 384px;
+    width: 100%;
+    text-align: left;
+    height: fit-content;
     background: rgb(0,0,0);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -547,76 +589,107 @@ color: #FFFFFF;
     border-bottom-right-radius: 20px;
     overflow: hidden;
     position: relative;
+    background-color: rgba(39, 39, 39, 1);
   }
   .bg_img {
-    width: 286px;
-    height: 133px;
-    background-image:url('assets/greenspiral.jpeg');
-    background-position: center center;
-    background-size: cover;
+    width: 300px;
+    height: 200px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    overflow: hidden;
+    align-items: baseline;
+    vertical-align: bottom;
+    text-align: center;
   }
+  .bg_img img{
+    width: 300px;
+    transition: transform 0.8s;
+    cursor: pointer;
+  }
+
+  .bg_img img:hover{
+    transform: scale(1.2);
+  }
+  
   .description_box {
-    width: 257px;
+    width: 300px;
     height: 214px;
     font-family: Inter, sans-serif;
     color: white;
     margin-top: 10px;
     margin-left: 25px;
+    text-align: left;
   }
 
   .title {
-    width: 257px;
-    font-weight: 500;
+    width: 300px;
+    font-weight: 600;
     font-size: 20px;
     text-align: left;
     margin-bottom: 20px;
   }
+
+  .white_part{
+    color: white;
+  }
+
+  .green_part{
+    color: rgb(72, 171, 55);
+  }
+
   .descp {
-    width: 247px;
+    width: 300px;
     color: rgba(255,255,255,0.8);
     font-weight: Medium;
     font-size: 12px;
     text-align: left;
     margin-bottom: 50px;
   }
-  
+
+  .bottom_box_green_line{
+    background-color: rgb(72, 171, 55);
+    width: 104px;
+    height: 5px;
+    border: none;
+    margin: 0px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 50px;
+  }
 
 
-
-
-
-
-
-
-  .name{
+  .blog_medium{
     font-size: 12px;
     color: rgba(255,255,255,0.8);
-    font-weight: 200;
+    font-weight: 600;
     position: absolute;
     bottom: 20px;
   }
-  .date{
-    font-size: 12px;
-    color: rgba(255,255,255,0.8);
-    font-weight: 200;
-    position: absolute;
-    left: 180px;
-    bottom: 20px;
-  }
-
-  
-
-.bg_rectangle{
-  background-color: rgba(20, 20, 20, 1);
-  height: 500px;
-  width: 100%;
-  z-index: -1;
+  .read_time{
+  font-size: 12px;
+  color: rgba(255,255,255,0.8);
+  font-weight: 600;
   position: absolute;
-  top: 1400px;
-  border-radius: 50px;
+  left: 180px;
+  bottom: 20px;
 }
+
+
+
+
+
+
+
+/* TEAMS END */
+
+
+
+
+
+
+
+
+
 
 .dev_2{
     background-color: black;
