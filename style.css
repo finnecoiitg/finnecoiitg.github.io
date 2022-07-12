@@ -411,7 +411,7 @@ color: #FFFFFF;
   .capital,
   .defi,
   .socials{
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   .greenLine{
@@ -433,7 +433,7 @@ color: #FFFFFF;
   .whiteHeading {
     color: rgb(255,255,255);
     margin-bottom: 15px;
-    margin-top: 0px;
+    margin-top: -10px;
     font-weight: 600;
     font-size: 34px;
     opacity: 1;
