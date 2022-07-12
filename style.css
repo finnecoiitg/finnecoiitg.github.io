@@ -3,10 +3,6 @@ body{
     background-color: black;
 }
 
-p{
-  margin: 0px;
-  padding: 0px;
-}
 
 a{
     text-decoration: none;
@@ -487,10 +483,21 @@ color: #FFFFFF;
     margin: 0px;
   }
 
+
   .socialEmpowerment {
     margin-bottom: 20px;
   }
 
+  .whiteHeading {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255,255,255);
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 34px;
+    opacity: 1;
+    text-align: left;
+  }
   .quant_box ,
   .capital,
   .defi,
@@ -525,6 +532,8 @@ color: #FFFFFF;
   }
 
   .greenHeading {
+    margin: 0px;
+    padding: 0px;
     color: rgb(72, 171, 55);
     font-weight: Medium;
     font-size: 14px;
@@ -532,15 +541,7 @@ color: #FFFFFF;
     text-align: left;
     font-weight: 400;
   }
-  .whiteHeading {
-    color: rgb(255,255,255);
-    margin-bottom: 15px;
-    font-weight: 800;
-    font-size: 34px;
-    opacity: 1;
-    text-align: left;
-    
-  }
+  
   .Para {
     color: rgba(255,255,255,0.8);
     top: 74px;
@@ -663,7 +664,7 @@ color: #FFFFFF;
     color: rgba(255,255,255,0.8);
     font-weight: 600;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
   }
   .read_time{
   font-size: 12px;
@@ -671,7 +672,7 @@ color: #FFFFFF;
   font-weight: 600;
   position: absolute;
   left: 180px;
-  bottom: 20px;
+  bottom: 10px;
 }
 
 
