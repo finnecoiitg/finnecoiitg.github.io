@@ -663,7 +663,7 @@ color: #FFFFFF;
     }
     .wrong_tex_1_2{
         color: white;
-        margin-left: 70px;
+        margin-left: 50px;
         size: 20px;
     }
     .wrong_text_2_2{
@@ -800,12 +800,12 @@ color: #FFFFFF;
          }
          .pixya2{
             width:250px;
-            margin-left: 102px;
+            margin-left: 92px;
             margin-bottom: 0px;
          }
          .pixya3{
             width: 250px;
-            margin-left: 102px;
+            margin-left: 142px;
             margin-top: 0px;
             margin-bottom: 0px;
          }
@@ -852,7 +852,7 @@ color: #FFFFFF;
     
         /* Set width length for the left, right and middle columns */
         .left {
-        width: 25%;
+        width: 28%;
         }
     
         .middle {
@@ -877,7 +877,7 @@ color: #FFFFFF;
         }
         .wrong_tex_1{
             color: white;
-            margin-left: 72px;
+            margin-left: 52px;
             font-family: Inter;
             font-weight: Semi Bold;
             
@@ -921,11 +921,10 @@ color: #FFFFFF;
 }
 .pixya2_2{
    width:250px;
-   margin-left: 122px;
+   margin-left: 42px;
 }
 .pixya3_2{
    width: 250px;
-   margin-left: 122px;
+   margin-left: 2px;
 }
-    
 
