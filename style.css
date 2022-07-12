@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+#navbar{
+    font-family: 'Manrope';
+    margin-top: 1%;
+    text-align: center;
+    color:white;
+    display: flex;
+    font-size: 12px;
+    
+}
+#navbar figure{
+    margin-left: 0%;
+}
+#navbar a{
+    margin: 3%;
+    color:white;
+    margin-bottom: 10%;
+}
+/* .dropdown{
+    padding: 3%;
+}
+.dropdown-content ul {
+    display: none;
+    
+}
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    color: white;
+    font-size: inherit;
+}
+  
+.dropdown:hover .dropdown-content ul {
+    display:block;
+}
+.dropdown li{
+    padding: 10%;
+    float: left;
+} */
+#SignUp{
+    background-color: #63BB54;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    
+    
+    margin-bottom: 10%;
+    padding: 1%;
+}
+#main{
+    display: flex;
+}
+#main #left{
+    width:30%;
+    color:white;
+    margin-left: 5%;
+    
+}
+#main #right{
+    width:70%;
+    text-align: center;
+    font-family:Manrope;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    text-underline-offset: 50%;
+    overflow: hidden;
+    
+
+}
+#main #right i{
+    padding-left: 2%;
+}
