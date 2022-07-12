@@ -13,6 +13,7 @@
     <!-- bootstrap -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    
 </head>
 <body>
     <!-- Header -->
@@ -34,7 +35,7 @@
             <a href="">Events & Competitions</a>
             <a href="">Alumni Corner</a>
             <a href="">Others <i class="fa fa-angle-down" style="color: grey;"></i></a>
-            <a href="" id="SignUp" style="margin-top: 2%; margin-left:10%">Sign Up</a>
+            <a href="" id="SignUp" onmouseover="darkGreen(this)" onmouseout="green(this)" style="margin-top: 2%; margin-left:10%">Sign Up</a>
             <!-- <div class="dropdown">
                 <button class="dropbtn">Others
                 <i class="fa fa-angle-down" style="color: grey;"></i>
@@ -54,7 +55,7 @@
             
         <h1 style="font-size: 40px;font-weight: 700;">Finance <span style="font-weight:100">and</span> <br>Economics Club <br><span style="color:#63BB54;">IIT Guwahati</span> </h1>
         <p>The Finance and Economics Club (FEC) functions as a platform for enthusiastic students to come together and learn the intriguing and fun world of finance, by organizing introductory sessions for people who are interested in finance but do not have any prior knowledge, through inviting Industry Leaders and alumni<br><br></p>
-        <a href="" id="SignUp" style="margin-left:0%; padding: 2%;">Recent Events</a>
+        <a href="" id="SignUp" onmouseover="darkGreen(this)" onmouseout="green(this)" style="margin-left:0%; padding: 2%;" >Recent Events</a>
         
         </section>
         <section id="right">
@@ -78,9 +79,7 @@
      
       
     <div class="Para1234">
-      <p class="register">
-        Register for our <span class="regi">future events</span> here
-    </p>
+      
         <p class="Social">Social empowerment</p>
         <p class="WhatDo">What do we do for the society?</p>
         <p class="text2">We at Finance & Economics Club, IIT Guwahati believe that Finance is not all about money but it is one of the most crucial part of our lives. We try our best in removing this stigma by conducting workshops, courses, events and a lot more
@@ -114,11 +113,7 @@
     </div>
     
   
-  <div class="downloadPara">
-    <p class="DownloadFR">Download our Free Resources</p>
-    <p class="FRtext">All the Resources have been designed by Finance and Economics Club,IIT Guwahati.</p>
-
-</div>
+  
   </div>
   <div class="templates2">
     <div class="box4">
@@ -149,31 +144,55 @@
 
     </div>
 </div>
-    <div class="FundamentalAnalysis">
-        <img src="assets/Rectangle 123.png" class="Rectangle1">
-        <p class="FAText1">Fundamental Analysis</p>
-        <p class="BootcampRes">Bootcamp - Resouces</p>
-        <img src="assets/Frame 44.png" class="Frame44">
+    <div class="endHeader">
+        <div class="downloadPara">
+            <p class="DownloadFR">Download our Free Resources</p>
+            <p class="FRtext">All the Resources have been designed by Finance and Economics Club,IIT Guwahati.</p>
+        
+        </div>  
+        <div class="FundamentalAnalysis">
+            <img src="assets/Rectangle 123.png" class="Rectangle1">
+            <p class="FAText1">Fundamental Analysis</p>
+            <p class="BootcampRes">Bootcamp - Resouces</p>
+            <img src="assets/Frame 44.png" class="Frame44">
+        </div>
+        <div class="AlgoTrading">
+            <img src="assets/Rectangle 2.png" class="Rectangle2">
+            <p class="FAText2">Algo - Trading</p>
+            <p class="week3">3 Week long Resources</p>
+            <img src="assets/Frame 44.png" class="Frame45">
+        </div>
+        <p class="register">
+            Register for our <span class="regi">future events</span> here
+        </p>
+        <hr class="EndMargin">
+        <div class="BelowMargin">
+            <img src="assets/feclogomain.png" class="feclogoend">
+            <p class="FECPARA">Finance and Economics Club IIT Guwahati</p>
+            <p class="Blog">Blog</p>
+            <p class="WriteToUs1">Write to Us</p>
+            <p class="FAQ">FAQ</p>
+            <p class="CopyRight">Copyright - Finance &Economics Club , IIT Guwahati</p>
+            <!-- <img src="linkedin.png" class="Linkedin">
+            <img src="Instagram.png" class="Instagram">
+            <img src="Youtube.png" class="Youtube">
+            <img src="Facebook.png" class="Facebook"> -->
+        </div>
     </div>
-    <div class="AlgoTrading">
-        <img src="assets/Rectangle 2.png" class="Rectangle2">
-        <p class="FAText2">Algo - Trading</p>
-        <p class="week3">3 Week long Resources</p>
-        <img src="assets/Frame 44.png" class="Frame45">
-    </div>
-    <hr class="EndMargin">
-    <div class="BelowMargin">
-        <img src="assets/feclogomain.png" class="feclogoend">
-        <p class="FECPARA">Finance and Economics Club IIT Guwahati</p>
-        <p class="Blog">Blog</p>
-        <p class="WriteToUs1">Write to Us</p>
-        <p class="FAQ">FAQ</p>
-        <p class="CopyRight">Copyright - Finance &Economics Club , IIT Guwahati</p>
-        <!-- <img src="linkedin.png" class="Linkedin">
-        <img src="Instagram.png" class="Instagram">
-        <img src="Youtube.png" class="Youtube">
-        <img src="Facebook.png" class="Facebook"> -->
-    </div>
+    <script>
+        function green(obj)
+    {
+        obj.style.backgroundColor='#63BB54';
+    }
+    function darkGreen(obj)
+    {
+        obj.style.backgroundColor='green';
+    }
+
+
+
+    </script>
+    
         
 </body>
 </html>
