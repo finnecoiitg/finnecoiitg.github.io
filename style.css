@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    
 }
 a{
     text-decoration: none;
@@ -58,32 +59,47 @@ a{
 }
 #main{
     display: flex;
+    margin: 0%;
 }
 #main #left{
-    width:30%;
+    
     color:white;
     margin-left: 5%;
     font-family:Inter;
-    
+    overflow: hidden;
 }
 #main #right{
-    width:70%;
-    text-align: center;
+    margin-left: 10%;
+    justify-content: center;
     font-family:Manrope;
     color: white;
-    font-weight: 700;
-    font-size: 25px;
-    text-underline-offset: 50%;
-    overflow: hidden;
-    
-
+    margin-right: 0%;
 }
 #main #right i{
     padding-left: 2%;
     color:white;
+    text-align: center;
 }
-
-
+.typewriter {
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    border-right: 3px solid white;
+    white-space: nowrap;
+    animation: blink-caret .75s step-end infinite;
+    
+  }
+  
+  /* The typewriter cursor effect */
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+  }
 
 /* footer */
 
