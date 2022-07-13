@@ -1501,3 +1501,49 @@ color: #FFFFFF;
     position:absolute;
     top:400px;
 }
+.box6:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.box5:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.box4:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.box3:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.box2:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.box1:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.box1:not( :hover ){
+    transform: scale(1);
+    transition-duration: 0.5s;
+ }
+ .box2:not( :hover ){
+    transform: scale(1);
+    transition-duration: 0.5s;
+ }
+ .box3:not( :hover ){
+    transform: scale(1);
+    transition-duration: 0.5s;
+ }.box4:not( :hover ){
+    transform: scale(1);
+    transition-duration: 0.5s;
+ }.box5:not( :hover ){
+    transform: scale(1);
+    transition-duration: 0.5s;
+ }.box6:not( :hover ){
+    transform: scale(1);
+    transition-duration: 0.5s;
+ }
+
