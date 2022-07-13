@@ -374,7 +374,7 @@ color: #FFFFFF;
 .EndMargin
 {
     margin-top:1780px;
-    position: absolute;
+    position: relative;
     width:1072px;
     left:5px;
 }
