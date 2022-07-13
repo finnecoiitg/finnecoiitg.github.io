@@ -1,3 +1,4 @@
+/* before displaying */
 #loader {
     position: absolute;
     left: 50%;
@@ -7,12 +8,26 @@
     display: none;
 }
 
+/* Add animation to "page content" */
+#post-loading {
+    position: relative;
+    -webkit-animation-name: post-loading;
+    -webkit-animation-duration: 1s;
+    
+    
+  }
+  
+  @-webkit-keyframes post-loading {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+
+
+/* Display */
 body{
     background-color: black;
     
 }
-
-
 a{
     text-decoration: none;
 }
