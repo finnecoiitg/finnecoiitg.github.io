@@ -1574,6 +1574,9 @@ a{
     color:white;
     margin-bottom: 10%;
 }
+#navbar a:hover{
+color: #63BB54;
+}
 /* .dropdown{
     padding: 3%;
 }
