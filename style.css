@@ -83,6 +83,7 @@ a{
     padding: 1%;
 }
 #main{
+    height: 100%;
     display: flex;
     margin: 0%;
     justify-content: center;
