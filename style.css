@@ -63,20 +63,23 @@ a{
 #main{
     display: flex;
     margin: 0%;
+    justify-content: center;
 }
 #main #left{
-    
-    color:white;
     margin-left: 5%;
+    max-width: 50%;
+    color:white;
     font-family:Inter;
-    overflow: hidden;
+    
 }
 #main #right{
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     justify-content: center;
     font-family:Manrope;
     color: white;
     margin-right: 0%;
+    overflow: hidden;
 }
 #main #right i{
     padding-left: 2%;
