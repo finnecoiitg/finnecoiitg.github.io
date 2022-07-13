@@ -26,9 +26,6 @@
 /* Display */
 body{
     background-color: black;
-    background-image: url(assets/196892.png);
-    background-position: center;
-    background-size: cover;
 }
 a{
     text-decoration: none;
