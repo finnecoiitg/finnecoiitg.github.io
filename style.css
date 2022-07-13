@@ -381,10 +381,10 @@ color: #FFFFFF;
 }
 .EndMargin
 {
-    margin-top:1650px;
-    position: absolute;
+    margin-top:1780px;
+    position: relative;
     width:1072px;
-    left:104px;
+    left:5px;
 }
 .FECPARA
 {
@@ -702,7 +702,13 @@ color: #FFFFFF;
 }
 
 
-
+.EndMargin_teams
+{
+    margin-top:500px;
+    position: relative;
+    width:1072px;
+    left:5px;
+}
 
 
 
