@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Inter');
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }  
+#post-loading{
+    display: none;
+}
+
 body{
     background-color: black;
     

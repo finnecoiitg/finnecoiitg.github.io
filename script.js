@@ -43,7 +43,29 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
+function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("post-loading").style.display="block";
+};
+function changeImage(){
+    document.logo.src=images[i];
+    if (i<images.length-1){
+        i++;
+    }
+    else{
+        i=0;
+    }
+    setTimeout(changeImage,300);
+}
+var i=0;
+var images=[];
+images[0]="assets/preloader/1.png";
+images[1]="assets/preloader/2.png";
+images[2]="assets/preloader/3.png";
+images[3]="assets/preloader/4.png";
 window.onload = function() {
+    var load=changeImage()
+    var preload = setTimeout(showPage, 6000);
     var elements = document.getElementsByClassName('typewriter');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
@@ -54,3 +76,4 @@ window.onload = function() {
         }
     }
 };
+
