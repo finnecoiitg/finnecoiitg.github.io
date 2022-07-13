@@ -651,18 +651,19 @@ color: #FFFFFF;
 
   
   .description_box {
-    width: 110%;
+    width: 80%;
     height: 214px;
     font-family: Inter, sans-serif;
     color: white;
     margin-top: 5%;
     margin-left: 8%;
+    margin-right: 8%;
     text-align: left;
   }
 
   .title {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18.7px;
     text-align: left;
     margin-bottom: 2%;
   }
