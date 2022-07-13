@@ -712,14 +712,20 @@ color: #FFFFFF;
   bottom: 3%;
 }
 
-
+.endHeader_teams{
+  position:relative;
+  top: -2680px   
+}
 .EndMargin_teams
 {
     margin-top:500px;
     position: relative;
     width:1072px;
+    bottom: -2600px;
     left:5px;
 }
+
+
 
 
 
