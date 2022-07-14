@@ -738,6 +738,19 @@ left: 67%;
 bottom: 3%;
 }
 
+.endHeader_teams{
+  position:relative;
+  top: -2180px   
+}
+.EndMargin_teams
+{ 
+    margin-top: 00px;
+    position: relative;
+    width:1072px;
+    bottom: -2600px;
+    left:5px;
+}
+
 
 
 
