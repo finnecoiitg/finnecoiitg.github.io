@@ -17,30 +17,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    
+    <style>
+        
+        /* Add animation to "page content" */
+        body {
+            position: relative;
+            -webkit-animation-name: body;
+            -webkit-animation-duration: 1s;
+            animation-name: body;
+            animation-duration: 1s;
+            
+        }
+        
+        @-webkit-keyframes body {
+            from { bottom:-100px; opacity:0 } 
+            to { bottom:0px; opacity:1 }
+        }
+        @keyframes body{
+            from { bottom:-100px; opacity:0 } 
+            to { bottom:0px; opacity:1 }
+        }
+    </style>
 </head>
 <body>
    
     <div id="navbar">
-        <figure style="margin-left: 2%;" >
-            <a href="https://www.iitg.ac.in/stud/gymkhana/technical/index.html">
-            <img src="assets/techboard.png" width="47px" height="48px" >
-            <figcaption>Technical Board <br> IIT Guwahati</figcaption>
-            </a>
-        </figure>
-        <figure>
-            <a href="https://www.iitg.ac.in/">
-            <img src="assets/iitglogo.png" width="47px" height="48px">
-            <figcaption>Official Website<br>IIT Guwahati</figcaption>
-            </a>
-        </figure>
-            <a href="index.html">Home</a>
-            <a href="teams.html">Teams FEC</a>
-            <a href="">Events & Competitions</a>
-            <a href="">Alumni Corner</a>
-            <a href="">Others <i class="fa fa-angle-down" style="color: grey;"></i></a>
-            <a href="" id="SignUp" style="margin-top: 2%; margin-left:10%">Sign Up</a>
-        </div>
+            
+        <a href="index.html" style=" margin-top: 2.5%; margin-right: 10%;" ><img src="assets/header.png" ></a>
+        <a href="teams.html">Teams</a>
+        <a href="">Free Resources</a>
+        <a href="eventspage.html">Events</a>
+        <a href="" target="_blank">Contact Us</a>
+        <a href="https://feciitg.medium.com/" target="_blank">Blogs Medium</a>
+        <a href="">Alumni Corner</a>
+        <!-- <div class="dropdown">
+            <button class="dropbtn">Others
+            <i class="fa fa-angle-down" style="color: grey;"></i>
+            </button>
+            <div class="dropdown-content">
+            <ul style="list-style: none;">
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+            </ul>
+            </div>
+        </div> -->
+    </div>
 <div id="content">
 <div style="font-family: 'Manrope';">
     <p style="color: #63BB54;font-size: 14px;font-family: 'Manrope';margin-top: -8px;">SOCIAL EMPOWERMENT</p>
