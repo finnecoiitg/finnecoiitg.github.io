@@ -537,7 +537,7 @@ color: #FFFFFF;
   color: rgb(255,255,255);
   margin-bottom: 2.2%;
   font-weight: 800;
-  font-size: 34px;
+  font-size: 36px;
   opacity: 1;
   text-align: left;
 }
@@ -558,15 +558,15 @@ color: #FFFFFF;
   border: none;
   border-radius: 50px;;
   margin: 0px;
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 
 .inbetweenLine{
   color: white;
   font-weight: 600 ;
-  font-size: 25px;
-  margin-top: 5%;
+  font-size: 30px;
+  margin-top: 4%;
   margin-bottom: 5%;
   font-family: Manrope , sans-serif;
 }
@@ -578,10 +578,10 @@ color: #FFFFFF;
   margin: 0px;
   padding: 0px;
   color: rgb(72, 171, 55);
-  font-size: 14px;
+  font-size: 18px;
   opacity: 1;
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .Para {
@@ -599,8 +599,8 @@ color: #FFFFFF;
 
 .subpoints{
   color: rgba(255,255,255,0.8);
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 800;
   margin-right: 5%;
 }
 
@@ -614,7 +614,7 @@ color: #FFFFFF;
   grid-template-columns: 28% 28% 28%;
   column-gap: 5%;
   margin-top: 2%;
-  margin-left: 3%;
+  margin-left: 5%;
   font-size: 14px; 
   font-family: Inter , sans-serif;
 
@@ -623,14 +623,14 @@ color: #FFFFFF;
 
 @media (max-width: 1000px){
 
-.bottom_boxes_container{
-  grid-template-columns: 35% 35%;
-  row-gap: 4%;
-  
-}
-.container{
-  width:90%;
-}
+  .bottom_boxes_container{
+    grid-template-columns: 35% 35%;
+    row-gap: 4%;
+    
+  }
+  .container{
+    width:90%;
+  }
 }
 
 
@@ -703,7 +703,7 @@ color: #FFFFFF;
   font-weight: Medium;
   font-size: 12px;
   text-align: left;
-  margin-bottom: 70%;
+  margin-bottom: 50%;
   
 }
 
@@ -735,17 +735,61 @@ left: 67%;
 bottom: 3%;
 }
 
-.endHeader_teams{
-  position:relative;
-  top: -2180px   
+
+.teams_link{
+  color: white;
+  margin-right: 10%;
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid white;
+  padding: 1% 2% 1% 2%;
+  border-radius: 18px;
+  transition: transform 0.8s;
+  transition: background-color 0.5s;
+ 
 }
-.EndMargin_teams
-{ 
-    margin-top: 00px;
-    position: relative;
-    width:1072px;
-    bottom: -2600px;
-    left:5px;
+
+.teams_link:hover{
+  background-color: rgb(72, 171, 55);
+}
+.our_teams_title{
+  color: rgb(72, 171, 55);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 4%;
+}
+
+
+.DownloadFreeResources_teams
+{
+    margin-top: -5%;
+    margin-left: 0%;
+    width:456px;
+    height:78;
+   
+    
+}
+
+
+
+.register_teams{
+    font-family: Manrope;
+  font-weight: Bold;
+  position: absolute;
+    
+  margin-top:10%;
+  margin-left:-101%;
+  
+  font-size: 25px;
+  color: white;
+  
+  text-decoration: underline;
+  text-decoration-color:rgba(99, 187, 84, 1) ;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 25px;
+
+  
+  cursor: pointer;
 }
 
 
