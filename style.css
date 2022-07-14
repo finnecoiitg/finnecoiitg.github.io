@@ -355,123 +355,7 @@ color: #FFFFFF;
 
 
 }
-.FundamentalAnalysis
-{
-    position:absolute;
-    left:455px;
-    top:2070px;
-}
-.AlgoTrading
-{
-    position:absolute;
-    top:2070px;
-    left:350px;
-}
-.Frame44
-{
-    position:relative;
-    top:0px;
-    left:210px;
-    
-}
-.Frame45
-{
-    position:relative;
-    top:0px;
-    left:605px;
-    cursor: pointer;
-}
-.Frame44:hover{
-    cursor: pointer;
-}
-.downloadPara
-{
-    position:absolute;
-    top:2050px;
-    left:0px;
-}
-.feclogoend
-{
-    position:absolute;
-    width:70px;
-    left:136px;
-    top:2240px;
-}
-.EndMargin
-{
-    margin-top:1780px;
-    position: relative;
-    width:1072px;
-    left:5px;
-}
-.FECPARA
-{
-    position:absolute;
-    width:80px;
-    
-    
-    font-size: 10px;
-    color:white;
-    font-family: 'Manrope';
-    top:2249px;
-    left:178px;
-}
-.Blog
-{
-    position:absolute;
-    left:337px;
-    color:white;
-    
-    font-family: 'Manrope';
-    font-size: 12;
-    top:2249px;
-}
-.downloadPara{
-    top:2200px;
-}
-.FundamentalAnalysis
-{
-    top:2220px;
-}
-.AlgoTrading
-{
-    top:2220px;
-}
-.BelowMargin
-{
-    top:400px;
-    position:absolute;
-    width:1100px;
-}
-.WriteToUs1
-{
-    position:absolute;
-    left:426px;
-    color:white;
-    top:2249px;
-    font-family: 'Manrope';
-    font-size: 12;
-    
-}
-.FAQ
-{
-    position:absolute;
-    left:553px;
-    color:white;
-    top:2249px;
-    font-family: 'Manrope';
-    font-size: 12;
 
-}
-.CopyRight
-{
-    position:absolute;
-    left:633px;
-    color:white;
-    top:2249px;
-    font-family: 'Manrope';
-    font-size: 12;
-}
 .Para1234
 {
     position:absolute;
@@ -501,6 +385,112 @@ color: #FFFFFF;
     top:-135px;
     left:1137;
 } */
+
+
+/*Footer starts here*/
+.Footer
+{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+   
+}
+.DownloadFreeResources
+{
+    margin-top: -5%;
+    margin-left: 10%;
+    width:456px;
+    height:78;
+   
+    
+}
+.FundsAnalysis
+{
+    
+    
+    display: block;
+  
+    margin-top: 5%;
+    margin-left: 1%;
+   
+    height: 215;
+
+    
+}
+.AlgoTrading
+{
+    
+    
+    display: block;
+  
+    margin-top: 5%;
+    margin-left: 3%;
+    
+    height: 215;
+    
+}
+
+.BelowMargin
+{
+    color:white;
+    
+    
+    
+ 
+   
+    text-align: center;
+    align-items: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    position: absolute;
+    top:150%;
+
+ 
+   
+  
+    
+    font-family: 'Inter';
+    
+
+}
+.register{
+    font-family: Manrope;
+  font-weight: Bold;
+    position: absolute;
+   
+    margin-top:10%;
+    margin-left:-80%;
+   
+   
+    
+  
+  
+  font-size: 25px;
+  color: white;
+  
+  text-decoration: underline;
+  text-decoration-color:rgba(99, 187, 84, 1) ;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 25px;
+
+  
+  cursor: pointer;
+}
+.regi{
+    font-family: Manrope;
+      font-weight: Bold;
+      
+      font-size: 25px;
+      color:rgba(99, 187, 84, 1);
+      
+      text-decoration: underline;
+      text-decoration-thickness: 6px;
+}
+/*footer ends here*/
 
 
 
