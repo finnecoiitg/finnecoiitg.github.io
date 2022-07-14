@@ -1,3 +1,4 @@
+
 /* before displaying */
 #loader {
     position: absolute;
@@ -13,7 +14,8 @@
     position: relative;
     -webkit-animation-name: post-loading;
     -webkit-animation-duration: 1s;
-    
+    animation-name: post-loading;
+    animation-duration: 1s;
     
   }
   
@@ -21,32 +23,35 @@
     from { bottom:-100px; opacity:0 } 
     to { bottom:0px; opacity:1 }
   }
-
+@keyframes post-loading{
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+}
 
 /* Display */
 body{
     background-color: black;
+    font-weight: 800;
 }
 a{
     text-decoration: none;
 }
 #navbar{
+    width: auto;
     font-family: 'Manrope';
-    margin-top: 1%;
-    text-align: center;
     color:white;
-    display: flex;
-    justify-content: center;
     font-size: 15px;
-    margin-bottom: -5%;
+    justify-content: center;
+    display: flex;
 }
 
 #navbar a{
-    margin: 2%;
     margin-top: 3%;
     color:white;
+    margin-left: 2%;
     
 }
+
 /* .dropdown{
     padding: 3%;
 }
@@ -78,6 +83,7 @@ a{
     padding: 1%;
 }
 #main{
+    margin-top: 3%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -1567,80 +1573,8 @@ color: #FFFFFF;
     transform: scale(1);
     transition-duration: 0.5s;
  }
-<!-- events page start -->
+/* events page start */
 
-
-body{
-    background-color: black;
-}
-a{
-    text-decoration: none;
-}
-#navbar{
-    font-family: 'Manrope';
-    margin-top: 1%;
-    text-align: center;
-    color:white;
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    
-}
-#navbar figure{
-    margin-left: 0%;
-}
-#navbar a{
-    margin: 2%;
-    margin-top: 3%;
-    color:white;
-    margin-bottom: 10%;
-}
-#navbar a:hover{
-color: #63BB54;
-}
-/* .dropdown{
-    padding: 3%;
-}
-.dropdown-content ul {
-    display: none;
-    
-}
-.dropdown .dropbtn {
-    border: none;
-    outline: none;
-    background-color: inherit;
-    font-family: inherit;
-    color: white;
-    font-size: inherit;
-}
-  
-.dropdown:hover .dropdown-content ul {
-    display:block;
-}
-.dropdown li{
-    padding: 10%;
-    float: left;
-} */
-#SignUp{
-    background-color: #63BB54;
-    color: white;
-    border-radius: 8px;
-    text-align: center;
-    
-    
-    margin-bottom: 10%;
-    padding: 1%;
-}
-#SignUp{
-    background-color: #63BB54;
-    color: white;
-    border-radius: 8px;
-    text-align: center;
-    
-    
-    margin-bottom: 10%;
-    padding: 1%;
-}
 .main2{
     box-sizing: inherit;
     border: solid;
@@ -1951,4 +1885,3 @@ margin-left: -6px;
     transform: scale(1.1);
     transition-duration: 0.5s;
 }
-<!-- events page end -->
