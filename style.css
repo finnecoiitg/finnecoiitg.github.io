@@ -1984,12 +1984,21 @@ margin-left: -6px;
 .resource_description{
     color: white;
     font-size: 14px;
+    line-height: 23px;
 }
 
-.download_resource_img{
+.download_resource_button{
 
     margin: 5% 0% 2% 0%;
+    color: rgba(99, 187, 84, 1);
+}
 
+.download_resource_button a{
+    color: rgba(99, 187, 84, 1);
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 1% 2% 1% 2%;
+    border-radius: 20px;
 }
 
 .coming_soon{
