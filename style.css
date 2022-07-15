@@ -740,16 +740,30 @@ bottom: 3%;
 }
 
 
+
+.teams_link_grid{
+
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+
 .teams_link{
   color: white;
   margin-right: 10%;
   font-weight: 600;
   font-size: 18px;
   border: 1px solid white;
-  padding: 1% 2% 1% 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border-radius: 18px;
   transition: transform 0.8s;
   transition: background-color 0.5s;
+  text-align: center;
  
 }
 
@@ -762,6 +776,8 @@ bottom: 3%;
   font-weight: 800;
   margin-bottom: 4%;
 }
+
+
 
 
 .DownloadFreeResources_teams
