@@ -430,34 +430,26 @@ color: #FFFFFF;
     height: 215;
     
 }
-
-.BelowMargin
-{
-    color:white;
-    
-    
-    
- 
-   
-    text-align: center;
-    align-items: center;
-    color:white;
+.BelowMargin{
     display: flex;
     justify-content: center;
+}
+.BelowMargin a
+{
+    color:white;   
+    text-align: center;
+    margin-left: 3%;   
+    margin-top: 1%;
     font-size: 15px;
-    position: absolute;
-    top:150%;
-
- 
-   
-  
-    
     font-family: 'Inter';
     
 
 }
+.BelowMargin a i{
+    font-size: 20px;
+}
 .register{
-    font-family: Manrope;
+    font-family: 'Manrope';
   font-weight: Bold;
   position: absolute;
     
