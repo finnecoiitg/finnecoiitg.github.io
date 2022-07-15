@@ -772,6 +772,10 @@ bottom: 3%;
 
 
 
+
+
+
+
 .DownloadFreeResources_teams
 {
     margin-top: -10%;
@@ -2066,40 +2070,6 @@ margin-left: -6px;
     }
 
 }
-
-  
-  
-  /*Footer starts here*/
-  .Footer_free_resources
-  {
-      display: block;
-      align-items: center;
-      position: relative;
-      margin-bottom: 1%;
-      
-     
-  }
-
-
-
-  .BelowMargin_freeresources
-  {
-      color:white;
-      
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      color:white;
-      
-
-      font-size: 15px;
-      position: relative;
-      font-family: 'Inter';
-      
-  }
-
-  /*footer ends here*/
-
 
 
 
