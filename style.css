@@ -1658,315 +1658,305 @@ bottom: 3%;
  }
 /* events page start */
 
-.main2{
-    box-sizing: inherit;
-    border: solid;
-    font-size: 41px;
-    margin-top: 21px;
-    margin-left: 113px;
-    padding-top: 43px;
-    font-family: 'Comic Neue', cursive;
-    width: 286px;
-    height: 384px;
-    padding-left: 28px;
-    box-shadow: -1px 1px 6px black;
-    border-radius: 11px;
-    color: white;
-    background-color: #2f2b2b;
-    border-color: black;
-    cursor: pointer;
+.main2 {
+  box-sizing: inherit;
+  border: solid;
+  font-size: 41px;
+  margin-top: 21px;
+  margin-left: 113px;
+  padding-top: 43px;
+  font-family: "Comic Neue", cursive;
+  width: 286px;
+  height: 384px;
+  padding-left: 28px;
+  box-shadow: -1px 1px 6px black;
+  border-radius: 11px;
+  color: white;
+  background-color: #2f2b2b;
+  border-color: black;
+  cursor: pointer;
 }
-#box{
-    background-color:black;
-    background-color: black;
-    background-image: url('assets/Mnanalyse.png');
-    background-size: 315px 183px;
-    margin-left: -28px;
-    margin-top: -46px;
-    padding-top: 140px;
-    padding-left: 16px;
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px;
-    padding-bottom: 0.5px;
-    margin-right: 0px;
-}
-
-#box2{
-   
-    color:white;
-}
-.inside1{
-    font-size: 23px;
-    margin-left: -9px;
-    font-family: 'DM Sans', sans-serif;
-    margin-bottom: -11px;
-}
-.smallbox{
-    font-size: 12px;
-    margin-top: 34px;
-    border: solid;
-    width: 51px;
-    padding-left: 8px;
-    border-radius: 7px;
-    font-family: 'DM Sans', sans-serif;
-    
-    padding-right: 9px;
-}
-#para{
-    font-size: 13px;
-    font-family: 'DM Sans', sans-serif;
-    color: rgba(255, 255, 255, 0.8);
-    margin-left: -10px;
-    margin-top: 30px;
-    margin-right: 22px;
-    text-align: justify;
-}
-#clock{
-    margin-left: 76px;
-height: 19px;
-width: 18px;
-margin-bottom: -5px; 
-}
-#time{
-    font-size :12px;
-    font-family: 'DM Sans', sans-serif;
-    margin-left: -5px;
-}
-#name1{
-    
-font-size: 14px;
-font-family: 'DM Sans', sans-serif;
-color: #63BB54;
-margin-top: 2px;
-margin-left: -6px;
-}
-#date{
-    padding-left:62px;
-}
-#main3{
-    box-sizing: inherit;
-    border: solid;
-    font-size: 41px;
-    margin-top: -429px;
-    margin-left: 540px;
-    padding-top: 43px;
-    font-family: 'Comic Neue', cursive;
-    width: 286px;
-    height: 384px;
-    padding-left: 29px;
-    box-shadow: -1px 1px 6px black;
-    border-radius: 11px;
-    color: white;
-    background-color: #2f2b2b;
-    border-color: black;
-    cursor: pointer;
-}
-#box3{
-    background-color:black;
-    background-color: black;
-    background-image: url('assets/dmint.png');
-    background-size: 323px 141px;
-    margin-left: -28px;
-    margin-top: -46px;
-    padding-top: 140px;
-    padding-left: 16px;
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px;
-    padding-bottom: 0.5px;
-    margin-right: 0px;
-}
-.inside2{
-    font-size: 24px;
-    margin-left: -9px;
-    font-family: 'DM Sans', sans-serif;
-    margin-bottom: -11px;
-}
-#name2{
-    
-    font-size: 15px;
-font-family: 'DM Sans', sans-serif;
-color: #63BB54;
-margin-top: 22px;
-margin-left: -6px;
-    }
-    #box4{
-        background-color:black;
-        background-color: black;
-        background-image: url('assets/financeplus.png');
-        background-size: 323px 141px;
-        margin-left: -28px;
-        margin-top: -46px;
-        padding-top: 140px;
-        padding-left: 16px;
-        border-top-left-radius: 11px;
-        border-top-right-radius: 11px;
-        padding-bottom: 0.5px;
-        margin-right: 0px;
-    }
-    .inside3{
-        font-size: 24px;
-        margin-left: -9px;
-        font-family: 'DM Sans', sans-serif;
-        margin-bottom: -11px;
-    }
-    #name3{
-        font-size: 15px;
-        font-family: 'DM Sans', sans-serif;
-        color: #63BB54;
-        margin-top: 21px;
-        margin-left: -6px;
-        }
-        #main4{
-            box-sizing: inherit;
-    border: solid;
-    font-size: 41px;
-    margin-top: -433px;
-    margin-left: 975px;
-    padding-top: 43px;
-    font-family: 'Comic Neue', cursive;
-    width: 286px;
-    height: 384px;
-    padding-left: 27px;
-    box-shadow: -1px 1px 6px black; 
-    border-radius: 11px;
-    color: white;
-    background-color: #2f2b2b;
-    border-color: black;
-    cursor: pointer;
-        }
-        #part2{
-            margin-top:80px;
-        }
-        
-        #part3{
-            margin-top:80px;
-        }
-        #box5{
-            background-color: black;
-            background-color: black;
-            background-image: url(assets/codebiz.png);
-            background-size: 340px 148px;
-            background-position-x: -7px;
-            margin-left: -28px;
-            margin-top: -46px;
-            padding-top: 140px;
-            padding-left: 16px;
-            border-top-left-radius: 11px;
-            border-top-right-radius: 11px;
-            padding-bottom: 0.5px;
-            margin-right: 0px;
-        }
-        #box6{
-            background-color: black;
-            background-color: black;
-            background-image: url(assets/derivative.png);
-            background-size: 340px 148px;
-            background-position-x: -7px;
-            margin-left: -28px;
-            margin-top: -46px;
-            padding-top: 140px;
-            padding-left: 16px;
-            border-top-left-radius: 11px;
-            border-top-right-radius: 11px;
-            padding-bottom: 0.5px;
-            margin-right: 0px;
-        }
-        #box7{
-            background-color: black;
-            background-color: black;
-            background-image: url(assets/tradingbot.png);
-            background-size: 340px 148px;
-            background-position-x: -7px;
-            margin-left: -28px;
-            margin-top: -46px;
-            padding-top: 140px;
-            padding-left: 16px;
-            border-top-left-radius: 11px;
-            border-top-right-radius: 11px;
-            padding-bottom: 0.5px;
-            margin-right: 0px;
-        }
-        #name4{
-    
-            font-size: 15px;
-        font-family: 'DM Sans', sans-serif;
-        color: #63BB54;
-        margin-top: -26px;
-        margin-left: -6px;
-            }
-            #box8{
-                background-color: black;
-                background-image: url('assets/valuation.png');
-                background-size: 323px 141px;
-                margin-left: -28px;
-                margin-top: -46px;
-                padding-top: 140px;
-                padding-left: 16px;
-                border-top-left-radius: 11px;
-                border-top-right-radius: 11px;
-                padding-bottom: 0.5px;
-                margin-right: 0px;
-            }
-            #box9{
-                background-color: black;
-                background-image: url('assets/excel.png');
-                background-size: 323px 141px;
-                margin-left: -28px;
-                margin-top: -46px;
-                padding-top: 140px;
-                padding-left: 16px;
-                border-top-left-radius: 11px;
-                border-top-right-radius: 11px;
-                padding-bottom: 0.5px;
-                margin-right: 0px;
-            }
-            #box10{
-                background-color: black;
-                background-image: url('assets/bot.png');
-                background-size: 323px 141px;
-                margin-left: -28px;
-                margin-top: -46px;
-                padding-top: 140px;
-                padding-left: 16px;
-                border-top-left-radius: 11px;
-                border-top-right-radius: 11px;
-                padding-bottom: 0.5px;
-                margin-right: 0px;
-            }
-            #new{
-                margin-top:-18px;
-            }
-#boxcontent{
-    margin-top: 3%;
-    margin-left: -6%;
-    justify-content: center;
-    display: grid;
+#box {
+  background-color: black;
+  background-color: black;
+  background-image: url("assets/Mnanalyse.png");
+  background-size: 315px 183px;
+  margin-left: -28px;
+  margin-top: -46px;
+  padding-top: 140px;
+  padding-left: 16px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  padding-bottom: 0.5px;
+  margin-right: 0px;
 }
 
-#content{
-    margin-left: -5%;
-    justify-content: center;
-    display: grid;
-    margin-top:4%;
+#box2 {
+  color: white;
+}
+.inside1 {
+  font-size: 23px;
+  margin-left: -9px;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: -11px;
+}
+.smallbox {
+  font-size: 12px;
+  margin-top: 34px;
+  border: solid;
+  width: 51px;
+  padding-left: 8px;
+  border-radius: 7px;
+  font-family: "DM Sans", sans-serif;
+
+  padding-right: 9px;
+}
+#para {
+  font-size: 13px;
+  font-family: "DM Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: -10px;
+  margin-top: 30px;
+  margin-right: 22px;
+  text-align: justify;
+}
+#clock {
+  margin-left: 76px;
+  height: 19px;
+  width: 18px;
+  margin-bottom: -5px;
+}
+#time {
+  font-size: 12px;
+  font-family: "DM Sans", sans-serif;
+  margin-left: -5px;
+}
+#name1 {
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  color: #63bb54;
+  margin-top: 2px;
+  margin-left: -6px;
+}
+#date {
+  padding-left: 62px;
+}
+#main3 {
+  box-sizing: inherit;
+  border: solid;
+  font-size: 41px;
+  margin-top: -429px;
+  margin-left: 540px;
+  padding-top: 43px;
+  font-family: "Comic Neue", cursive;
+  width: 286px;
+  height: 384px;
+  padding-left: 29px;
+  box-shadow: -1px 1px 6px black;
+  border-radius: 11px;
+  color: white;
+  background-color: #2f2b2b;
+  border-color: black;
+  cursor: pointer;
+}
+#box3 {
+  background-color: black;
+  background-color: black;
+  background-image: url("assets/dmint.png");
+  background-size: 323px 141px;
+  margin-left: -28px;
+  margin-top: -46px;
+  padding-top: 140px;
+  padding-left: 16px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  padding-bottom: 0.5px;
+  margin-right: 0px;
+}
+.inside2 {
+  font-size: 24px;
+  margin-left: -9px;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: -11px;
+}
+#name2 {
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  color: #63bb54;
+  margin-top: 22px;
+  margin-left: -6px;
+}
+#box4 {
+  background-color: black;
+  background-color: black;
+  background-image: url("assets/financeplus.png");
+  background-size: 323px 141px;
+  margin-left: -28px;
+  margin-top: -46px;
+  padding-top: 140px;
+  padding-left: 16px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  padding-bottom: 0.5px;
+  margin-right: 0px;
+}
+.inside3 {
+  font-size: 24px;
+  margin-left: -9px;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: -11px;
+}
+#name3 {
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  color: #63bb54;
+  margin-top: 21px;
+  margin-left: -6px;
+}
+#main4 {
+  box-sizing: inherit;
+  border: solid;
+  font-size: 41px;
+  margin-top: -433px;
+  margin-left: 975px;
+  padding-top: 43px;
+  font-family: "Comic Neue", cursive;
+  width: 286px;
+  height: 384px;
+  padding-left: 27px;
+  box-shadow: -1px 1px 6px black;
+  border-radius: 11px;
+  color: white;
+  background-color: #2f2b2b;
+  border-color: black;
+  cursor: pointer;
+}
+#part2 {
+  margin-top: 80px;
 }
 
-
-
-
-
-
-
-.main2:hover{
-    transform: scale(1.1);
-    transition-duration: 0.5s;
+#part3 {
+  margin-top: 80px;
 }
-#main3:hover{
-    transform: scale(1.1);
-    transition-duration: 0.5s;
+#box5 {
+  background-color: black;
+  background-color: black;
+  background-image: url(assets/codebiz.png);
+  background-size: 340px 148px;
+  background-position-x: -7px;
+  margin-left: -28px;
+  margin-top: -46px;
+  padding-top: 140px;
+  padding-left: 16px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  padding-bottom: 0.5px;
+  margin-right: 0px;
 }
-#main4:hover{
-    transform: scale(1.1);
-    transition-duration: 0.5s;
+#box6 {
+  background-color: black;
+  background-color: black;
+  background-image: url(assets/derivative.png);
+  background-size: 340px 148px;
+  background-position-x: -7px;
+  margin-left: -28px;
+  margin-top: -46px;
+  padding-top: 140px;
+  padding-left: 16px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  padding-bottom: 0.5px;
+  margin-right: 0px;
+}
+#box7 {
+  background-color: black;
+  background-color: black;
+  background-image: url(assets/tradingbot.png);
+  background-size: 340px 148px;
+  background-position-x: -7px;
+  margin-left: -28px;
+  margin-top: -46px;
+  padding-top: 140px;
+  padding-left: 16px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  padding-bottom: 0.5px;
+  margin-right: 0px;
+}
+#name4 {
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  color: #63bb54;
+  margin-top: -26px;
+  margin-left: -6px;
+}
+#box8 {
+  background-color: black;
+  background-image: url("assets/valuation.png");
+  background-size: 323px 141px;
+  margin-left: -28px;
+  margin-top: -46px;
+  padding-top: 140px;
+  padding-left: 16px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  padding-bottom: 0.5px;
+  margin-right: 0px;
+}
+#box9 {
+  background-color: black;
+  background-image: url("assets/excel.png");
+  background-size: 323px 141px;
+  margin-left: -28px;
+  margin-top: -46px;
+  padding-top: 140px;
+  padding-left: 16px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  padding-bottom: 0.5px;
+  margin-right: 0px;
+}
+#box10 {
+  background-color: black;
+  background-image: url("assets/bot.png");
+  background-size: 323px 141px;
+  margin-left: -28px;
+  margin-top: -46px;
+  padding-top: 140px;
+  padding-left: 16px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  padding-bottom: 0.5px;
+  margin-right: 0px;
+}
+#new {
+  margin-top: -18px;
+}
+#boxcontent {
+  margin-top: 3%;
+  margin-left: -6%;
+  justify-content: center;
+  display: grid;
+}
+
+#content {
+  margin-left: -1%;
+  justify-content: center;
+  display: grid;
+  margin-top: 8%;
+}
+
+.main2:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+#main3:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+#main4:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
 
 
