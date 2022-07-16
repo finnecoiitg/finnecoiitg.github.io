@@ -82,13 +82,7 @@ a{
     padding: 10%;
     float: left;
 } */
-#SignUp{
-    background-color: #63BB54;
-    color: white;
-    border-radius: 8px;
-    text-align: center;
-    padding: 1%;
-}
+
 #main{
     margin-top: 3%;
     height: 100%;
