@@ -41,48 +41,36 @@ a{
     text-decoration: none;
 }
 #navbar{
+  display: flex;
+  justify-content: space-evenly;
+}
+#navbar :first-child{
+  margin-top: 2%;
+  margin-right: 15%;
+}
+#navbar :not(:first-child) {
     width: auto;
     font-family: 'Manrope';
     color:white;
     font-size: 15px;
-    justify-content: center;
-    display: flex;
+    margin-top: 3%;
 }
 
-#navbar a{
-    margin-top: 3%;
-    color:white;
-    margin-left: 2%;
-    
-}
 #navbar a:hover{
     color:#63BB54;
 }
+#navbar a.burger{
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  #navbar a:not(:first-child) {display: none;}
+  #navbar a.burger {
+    float: right;
+    display: block;
+  }
+}
 
-/* .dropdown{
-    padding: 3%;
-}
-.dropdown-content ul {
-    display: none;
-    
-}
-.dropdown .dropbtn {
-    border: none;
-    outline: none;
-    background-color: inherit;
-    font-family: inherit;
-    color: white;
-    font-size: inherit;
-}
-  
-.dropdown:hover .dropdown-content ul {
-    display:block;
-}
-.dropdown li{
-    padding: 10%;
-    float: left;
-} */
-
+/* index content */
 #main{
     margin-top: 3%;
     height: 100%;
