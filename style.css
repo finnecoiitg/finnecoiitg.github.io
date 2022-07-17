@@ -1749,4 +1749,22 @@ bottom: 3%;
 
 /*             FREE RESOURCES END              */
 
+*Responsive mobile design prototypee*/
+@media screen and (max-width: 500px) {
+  .pcview
+  {
+    display: none;
+  }
+ 
+ 
+
+ 
+}
+@media screen and (min-width:502px)
+{
+  .mobileview1{
+    display:none;
+  }
+}
+
 
