@@ -1760,7 +1760,7 @@ bottom: 3%;
 
  
 }
-@media screen and (min-width:502px)
+@media screen and (min-width:501px)
 {
   .mobileview1{
     display:none;
