@@ -651,9 +651,16 @@ bottom: 3%;
   
 
 }
+
+.BelowMargin_teams a:hover{
+  color:#63BB54;
+}
+
+
 .BelowMargin_teams a i{
   font-size: 20px;
 }
+
 
 
 .register_teams{
