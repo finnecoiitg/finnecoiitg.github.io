@@ -136,6 +136,21 @@ a{
     animation: blink-caret .75s step-end infinite;
     
   }
+
+.bottom_boxes_container_index{
+  
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 5%;
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 7%;
+  font-size: 14px; 
+  font-family: Inter , sans-serif;
+  max-width: 1200px;
+
+}
+
   
   /* The typewriter cursor effect */
   
