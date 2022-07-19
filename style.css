@@ -150,6 +150,10 @@ a{
   max-width: 1200px;
 
 }
+.bottom_boxes_container_index:hover{
+    cursor: pointer;
+}
+
 
   
   /* The typewriter cursor effect */
