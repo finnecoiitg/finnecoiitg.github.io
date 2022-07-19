@@ -40,36 +40,63 @@ body{
 a{
     text-decoration: none;
 }
-#navbar{
+.logo{
+  display: none;
+  margin: 3%;
+}
+.navbar{
   display: flex;
   justify-content: space-evenly;
+
 }
-#navbar :first-child{
-  margin-top: 2%;
-  margin-right: 15%;
-}
-#navbar :not(:first-child) {
+.navbar a {
     width: auto;
     font-family: 'Manrope';
     color:white;
     font-size: 15px;
-    margin-top: 3%;
+    margin-top: 2%;
+ 
 }
 
-#navbar a:hover{
+.navbar a:hover{
     color:#63BB54;
 }
-#navbar a.burger{
+.navbar a.burger{
   display: none;
+  margin-top: -10%;
+  float: right;
+
+  
 }
 @media screen and (max-width: 1000px) {
-  #navbar a:not(:first-child) {display: none;}
-  #navbar a.burger {
-    float: right;
+  .navbar a{display: none;}
+  .logo{display: block;}
+  .navbar a.burger {
+    text-align: right;
     display: block;
+    margin-right: 0%;
+  }
+  .navbar{
+    justify-content: right;
+    margin-right: 5%;
+  }
+  .responsive{
+    display: block;
+    padding-left: 5%;
+    float: right ;
+
+    margin-top: -10%;
+  }
+ 
+  .header{
+    margin-bottom: -5%;
+  }
+  .navbar.responsive a:not(:first-child) {
+    float: none;
+    display: block;
+    padding-top: 5%;
   }
 }
-
 /* index content */
 #main{
     margin-top: 3%;
@@ -83,14 +110,14 @@ a{
     margin-left: 2%;
     max-width: 50%;
     color:white;
-    font-family:Inter;
+    font-family:'Inter';
     
 }
 #main #right{
     height: 100%;
     margin-left: 5%;
     justify-content: center;
-    font-family:Manrope;
+    font-family:'Manrope';
     color: white;
     margin-right: 0%;
     overflow: hidden;

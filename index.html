@@ -23,18 +23,25 @@
     </div>
     <div id="post-loading">
     <!-- Header -->
-    <div id="navbar">
+    <div class="header">
+            <div class="logo">
+              <a href="index.html" width="5%"><img src="assets/header.png" ></a>
+            </div>
             
-            <a href="index.html"><img src="assets/header.png" ></a>
-            <a href="teams.html">Teams</a>
-            <a href="free_resources_page.html">Free Resources</a>
-            <a href="eventspage.html">Events</a>
-            <a href="https://forms.gle/s3GXV8LzxankBsLm8" target="_blank">Contact Us</a>
-            <a href="https://feciitg.medium.com/" target="_blank">Blogs Medium</a>
-            <a href="alumnipage.html">Alumni Corner</a>
-            <a href="javascript:void(0);" class="burger" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
+            <div id="navbar" class="navbar">
+              <a href="index.html" style="margin-top:1.5%;"><img src="assets/header.png" ></a><br>
+              <a href="javascript:void(0);" class="burger" onclick="myFunction()">
+                <i id="fa" class="fa fa-bars"></i>
+              </a>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><br><br></a>
+              <a href="teams.html">Teams</a>
+              <a href="free_resources_page.html">Free Resources</a>
+              <a href="eventspage.html">Events</a>
+              <a href="https://forms.gle/s3GXV8LzxankBsLm8" target="_blank">Contact Us</a>
+              <a href="https://feciitg.medium.com/" target="_blank">Blogs Medium</a>
+              <a href="alumnipage.html">Alumni Corner</a>
+            </div>
+            
     </div>
         <!-- Intro Section -->
     <div id="main">
@@ -305,6 +312,18 @@ Have a look at some of our flagship events.</p>
         <a href="https://www.linkedin.com/company/finance-and-economics-club-iitg/"><i class="fa fa-linkedin"></i></a>   <a href="https://www.instagram.com/fec_iitg/"><i class="fa fa-instagram"></i></a>  <a href="https://www.facebook.com/financeclubiitg"><i class="fa fa-facebook"></i></a> <a href="https://www.youtube.com/channel/UCnDlqT39NuuEV99wWARu3TQ"><i class="fa fa-youtube"></i></a>
         
         </div>
-    
+        <script>
+          function myFunction() {
+            var x = document.getElementById("navbar");
+            var y=document.getElementById("fa");
+            if (x.className === "navbar") {
+              x.className += " responsive";
+              y.className="fa fa-times";
+            } else {
+              x.className = "navbar";
+              y.className="fa fa-bars";
+            }
+          }
+          </script>
 </body>
 </html>
