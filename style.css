@@ -331,14 +331,14 @@ a{
 .container{
   
   position: relative;
-  width: fit-content;
+  width: 80%;
   font-size: 14px; 
   font-family: Inter , sans-serif;
   padding: 0px;
   margin: 0px;
   align-self: center;
+  max-width: 1000px;
 }
-
 
 .socialEmpowerment {
   margin-bottom: 20px;
@@ -430,6 +430,7 @@ a{
   margin-left: 5%;
   font-size: 14px; 
   font-family: Inter , sans-serif;
+  max-width: 1200px;
 
 }
 
@@ -437,13 +438,13 @@ a{
 @media (max-width: 1000px){
 
   .bottom_boxes_container{
-    grid-template-columns: 35% 35%;
+    grid-template-columns: 40% 40%;
     row-gap: 4%;
+    margin-left: 10%;
+    column-gap: 7%;
     
   }
-  .container{
-    width:90%;
-  }
+ 
 }
 
 
