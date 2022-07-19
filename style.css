@@ -175,6 +175,7 @@ a{
     color: #63BB54;
     font-size: 12px;
     text-align: left;
+    font-family: 'Inter';
   }
   blockquote footer:before {
     content: '— ';
@@ -252,7 +253,7 @@ a{
 }
 .BelowMargin{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .BelowMargin a:hover{
   color:#63BB54;
@@ -260,13 +261,10 @@ a{
 .BelowMargin a
 {
     color:white;   
-    text-align: center;
-    margin-left: 3%;   
-    margin-top: 1%;
+    text-align: center;  
+    margin: 1%;
     font-size: 15px;
     font-family: 'Inter';
-    
-
 }
 .BelowMargin a i{
     font-size: 20px;
@@ -453,8 +451,8 @@ a{
 
 .bottom_boxes {
   height: 100%;
-  max-height: 800px;
-  max-width: 370px;
+  max-height: 600px;
+  max-width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -493,7 +491,7 @@ a{
 
 .description_box {
   width: 80%;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter';
   color: white;
   margin-left: 8%;
   margin-right: 8%;
@@ -501,7 +499,7 @@ a{
 }
 
 .title {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 18.7px;
   text-align: left;
 }
@@ -519,7 +517,7 @@ a{
   font-weight: Medium;
   font-size: 12px;
   text-align: left;
-  margin-bottom: 50%;
+  margin-bottom: 40%;
   
 }
 
