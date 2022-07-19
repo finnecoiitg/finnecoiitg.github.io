@@ -18,6 +18,45 @@
     
 </head>
 <body>
+    
+    <div class="mobileview1" style="width: 100%;" id="mobileview1">
+        <div id="headermob">
+            <img src="assets/header.png" style="width:80%;margin-top:10%;margin-left: 7%;">
+            <hr style="background-color:#63BB54;width: 80%;height:1px;">
+    
+        </div>
+        <div style="display: block;justify-content:flex-start;margin-left: 7%;">
+            <h2 style="color:#63BB54;font-family:'Manrope';font-size:60px;text-align: start;font-size: 25px;"> An Asset to everyone</h2>
+            <h2 style="color:white;font-family:'Manrope';font-size:60px;margin-top: -4%;font-size: 25px;">liability to none</h2>
+            <p style="justify-content:center;color:white;font-family:'Inter';font-weight:600;color:white;font-size:13px;text-align:justify;width: 93%">The Finance and Economics Club (FEC) functions as a platform for enthusiastic students to come together and learn the intriguing and fun world of finance, by organizing introductory sessions for people who are interested in finance but do not have any prior knowledge, through inviting Industry Leaders and alumni.</p>
+            <button style="background-color:black;margin-top:5%;width:65%;color:#63BB54;font-family: Inter;font-weight: 600;border-style: solid;border-color: white;border-radius: 10px;font-size: 14px;cursor:pointer;">Register for future events here</button>
+            <h2 style="color:white;font-family:'Manrope';font-size: 25px;">How do we <span style="color:#63BB54;font-family:'Manrope';font-size: 25px;">work</span></h2>
+            <p style="justify-content:center;color:white;font-family:'Inter';font-weight:600;color:white;font-size:13px;text-align:justify;width: 93%">We at Finance & Economics Club, IIT Guwahati are divided in three teams named: FEC Quant, FEC Capital, FEC De-Fi. Teams work on multiple projects throughout the year and also participate in various competitions all over the globe. Mind having a deeper look at what each team offers?</p>
+            <p style="color:#63BB54;font-family: Inter;font-weight: 700;font-size: 14px;margin-top: 5%;cursor: pointer;">Team division FEC</p>
+            <h2 style="color:white;font-family:'Manrope';font-size: 25px;font-weight: 700;">For the<span style="color:#63BB54;font-family:'Manrope';font-size:25px;margin-left:2%;font-weight: 700;;">society?</span></h2>
+            <p style="color:white;font-family:'Inter';font-weight:600;color:white;font-size:13px;text-align:justify;width: 93%;">We at Finance & Economics Club, IIT Guwahati believe that Finance is not all about money but it is one of the most crucial 
+                part of our lives. We try our best in removing this stigma by conducting workshops, courses, events and a lot more. For the past few years the club has conducted more than 10 industry level courses and workshops with participation from more than 100 institutions all over the globe. Have a look at some of our flagship events.</p>
+                <p style="color:#63BB54;font-family: Inter;font-weight: 700;font-size: 14px;margin-top: 5%;cursor: pointer;">Events FEC</p>
+            
+            <h2 style="color:white;font-family:'Manrope';font-size:25px;font-weight: 700;">Download our<span style="color:#63BB54;font-family:'Manrope';font-size:25px;font-weight: 700;margin-left: 2%;">Free Resources</span></h2>
+            <p style="justify-content:center;color:white;font-family:'Inter';font-weight:600;color:white;font-size:13px;text-align:justify;width: 93%">All the Resouces have been designed by Finance and Economics Club, IIT Guwahati.</p>
+            <p style="color:#63BB54;font-family: Inter;font-weight: 700;font-size: 14px;margin-top: 5%;cursor: pointer;">Resources</p>
+            <hr style="background-color:#63BB54;width:85%;height:1px;margin-left: 2%;margin-top: 9%;" >
+    
+        </div>
+        <div class="mobileFooter" style="color:white;">
+            <h2 style="color:white;font-family:Inter;font-weight:300;margin-top:10%;margin-left: 7%;">Follow Us</h2>
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="pcview" id="pcview">
     <div id="loader">
         <img name="logo">
     </div>
@@ -30,7 +69,7 @@
             
             <div id="navbar" class="navbar">
               <a href="index.html" style="margin-top:1.5%;"><img src="assets/header.png" ></a><br>
-              <a href="javascript:void(0);" class="burger" onclick="myFunction()">
+              <a href="javascript:void(0);" class="burger" onclick="menu()">
                 <i id="fa" class="fa fa-bars"></i>
               </a>
               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><br><br></a>
@@ -312,18 +351,7 @@ Have a look at some of our flagship events.</p>
         <a href="https://www.linkedin.com/company/finance-and-economics-club-iitg/"><i class="fa fa-linkedin"></i></a>   <a href="https://www.instagram.com/fec_iitg/"><i class="fa fa-instagram"></i></a>  <a href="https://www.facebook.com/financeclubiitg"><i class="fa fa-facebook"></i></a> <a href="https://www.youtube.com/channel/UCnDlqT39NuuEV99wWARu3TQ"><i class="fa fa-youtube"></i></a>
         
         </div>
-        <script>
-          function myFunction() {
-            var x = document.getElementById("navbar");
-            var y=document.getElementById("fa");
-            if (x.className === "navbar") {
-              x.className += " responsive";
-              y.className="fa fa-times";
-            } else {
-              x.className = "navbar";
-              y.className="fa fa-bars";
-            }
-          }
-          </script>
+        </div>
+    
 </body>
 </html>

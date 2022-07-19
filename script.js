@@ -8,6 +8,17 @@ var TxtType = function(el, toRotate, period) {
     this.isDeleting = false;
 };
 
+function menu() {
+var navbar = document.getElementById("navbar");
+var fa=document.getElementById("fa");
+if (navbar.className === "navbar") {
+    navbar.className += " responsive";
+    fa.className="fa fa-times";
+} else {
+    navbar.className = "navbar";
+    fa.className="fa fa-bars";
+}
+}
 TxtType.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
     var fullTxt = this.toRotate[i];
