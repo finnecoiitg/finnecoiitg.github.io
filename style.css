@@ -152,6 +152,30 @@ a{
 
 }
 
+@media (max-width: 1000px){
+
+  .bottom_boxes_container_index{
+    grid-template-columns: 40% 40%;
+    row-gap: 4%;
+    margin-left: 10%;
+    column-gap: 7%;
+    
+  }
+ 
+}
+
+
+
+
+.bg_img_index {
+  max-height: 170px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  vertical-align: bottom;
+  text-align: center;
+  
+}
 
 
   
@@ -226,7 +250,7 @@ a{
 .DownloadFreeResources
 {
     margin-top: -5%;
-    margin-left: 10%;
+    margin-left: 0%;
     width:456px;
     height:78;
    
