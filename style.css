@@ -258,7 +258,9 @@ a{
 }
 .BelowMargin{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 1.5% 12% 1.5% 12%;
+    font-weight: 800;
 }
 .BelowMargin a:hover{
   color:#63BB54;
