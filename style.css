@@ -1671,10 +1671,9 @@ bottom: 3%;
   }
   
   #content {
-    margin-left: 2%;
     justify-content: center;
     display: grid;
-    margin-top: 8%;
+    margin-top: 5%;
   }
   
   .main2:hover {
