@@ -164,6 +164,17 @@ a{
  
 }
 
+.bg_img_index img{
+  max-height: 180px;
+  width: 400px;
+    
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  vertical-align: bottom;
+  text-align: center;
+  
+}
 
 
 
