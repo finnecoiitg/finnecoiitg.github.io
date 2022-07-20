@@ -211,18 +211,6 @@ a{
   blockquote:nth-of-type(even) footer:after {
     content: ' —';
   }
-  @element 'blockquote' and (min-width: 300px) {
-    blockquote {
-      padding: 1em 20% 1em 1em;
-    }
-    blockquote p {
-      font-size: 14pt;
-    }
-    blockquote:nth-of-type(even) {
-      padding: 1em 1em 1em 20%;
-    }
-   
-  }
 
 /*Footer starts here*/
 .Footer
