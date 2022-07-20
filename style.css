@@ -338,13 +338,13 @@ a{
 .container{
   
   position: relative;
-  width: 80%;
+  width: 100%;
   font-size: 14px; 
   font-family: Inter , sans-serif;
   padding: 0px;
   margin: 0px;
   align-self: center;
-  max-width: 1000px;
+  max-width: 1050px;
 }
 
 .socialEmpowerment {
