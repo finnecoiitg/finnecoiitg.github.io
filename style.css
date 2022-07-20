@@ -150,7 +150,15 @@ a{
   max-width: 1200px;
 
 }
-
+.bg_img_index {
+  max-height: 170px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  vertical-align: bottom;
+  text-align: center;
+  
+}
 
 
   
