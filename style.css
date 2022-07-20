@@ -36,6 +36,7 @@ body{
     background-color: black;
     font-weight: 800;
     width:100%;
+    
 }
 a{
     text-decoration: none;
@@ -524,9 +525,9 @@ a{
 .descp {
   color:white;
   font-weight: Medium;
-  font-size: 15px;
-  text-align: left;
+  font-size: 14px;
   margin-bottom: 40%;
+  text-align: justify;
   
 }
 
@@ -1678,6 +1679,11 @@ bottom: 3%;
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
+  }
+  #content p{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
   }
   
   .main2:hover {
