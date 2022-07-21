@@ -37,7 +37,7 @@ html{
 body{
     background-color: black;
     font-weight: 800;
-    width:100%;
+    max-width:100%;
     
 }
 a{
@@ -254,47 +254,21 @@ a{
 /*Footer starts here*/
 .Footer
 {
-    display: block;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-family: 'Inter';
+    display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    
-   
+    margin-left: 8%;
+    margin-right: 8%;
 }
-.DownloadFreeResources
-{
-    margin-top: -5%;
-    margin-left: 0%;
-    width:456px;
-    height:78;
-   
-    
-}
-.FundsAnalysis
-{
-    
-    
-    display: block;
+.Resources
+{ 
   
-    margin-top: 5%;
-    margin-left: 1%;
-   
-    height: 215;
+  margin-top: 5%;
+  margin-left: 3%;
+}
 
-    
-}
-.AlgoTrading
-{
-    
-    
-    display: block;
-  
-    margin-top: 5%;
-    margin-left: 3%;
-    
-    height: 215;
-    
-}
 .BelowMargin{
     display: flex;
     justify-content: space-between;
@@ -1853,22 +1827,5 @@ bottom: 3%;
 
 /*             FREE RESOURCES END              */
 
-/*Responsive mobile design prototypee*/
-@media screen and (max-width: 500px) {
-  .pcview
-  {
-    display: none;
-  }
- 
- 
-
- 
-}
-@media screen and (min-width:501px)
-{
-  .mobileview1{
-    display:none;
-  }
-}
 
 
