@@ -94,6 +94,7 @@ a{
  
   .header{
     margin-bottom: -5%;
+    background-color: black;
   }
   .navbar.responsive a:not(:first-child) {
     float: none;
