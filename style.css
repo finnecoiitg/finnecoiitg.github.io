@@ -6,6 +6,8 @@
   }  
 #post-loading{
     display: none;
+    font-weight: 800;
+    width:100%;
 }
 
 /* Add animation to "page content" */

@@ -1,3 +1,15 @@
+
+function menu() {
+    var navbar = document.getElementById("navbar");
+    var fa=document.getElementById("fa");
+    if (navbar.className === "navbar") {
+        navbar.className += " responsive";
+        fa.className="fa fa-times";
+    } else {
+        navbar.className = "navbar";
+        fa.className="fa fa-bars";
+    }
+}
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -7,18 +19,6 @@ var TxtType = function(el, toRotate, period) {
     this.tick();
     this.isDeleting = false;
 };
-
-function menu() {
-var navbar = document.getElementById("navbar");
-var fa=document.getElementById("fa");
-if (navbar.className === "navbar") {
-    navbar.className += " responsive";
-    fa.className="fa fa-times";
-} else {
-    navbar.className = "navbar";
-    fa.className="fa fa-bars";
-}
-}
 TxtType.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
     var fullTxt = this.toRotate[i];
@@ -29,11 +29,13 @@ TxtType.prototype.tick = function() {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
     
-    if (fullTxt=="Be an asset to everyone,"){
-        this.el.innerHTML = '<span class="wrap" style="color:#63BB54;">'+this.txt+'</span>';
+    if (fullTxt=="Be an asset to everyone"){
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+        
+        
     }
     else{
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+        this.el.innerHTML = '<span class="wrap" style="color:#63BB54;">'+this.txt+'</span>';
     }
     var that = this;
     var delta = 100;
