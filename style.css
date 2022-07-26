@@ -80,7 +80,6 @@ a{
   .navbar a{display: none;}
   .logo{display: block;}
   .navbar a.burger {
-    text-align: right;
     display: block;
     margin-right: 0%;
   }
@@ -101,8 +100,8 @@ a{
     background-color: black;
   }
   .navbar.responsive a:not(:first-child) {
-    float: none;
-    display: block;
+    /* float: none; */
+    display: flex;
     padding-top: 5%;
   }
   #main p{
@@ -169,13 +168,14 @@ a{
     justify-content: space-evenly;
     text-align: left;
   }
-  .BelowMargin-Web{
+
+  .desktop{
     display: none !important;
   }
-  .BelowMargin-mobile{
+  #mobile{
     display: block !important;
   }
-
+  
 
 }
 /* index content */
@@ -348,17 +348,21 @@ a{
   margin-top: 5%;
   margin-left: 3%;
 }
+#mobile{
+  display:none;
+}
 
-.BelowMargin-Web{
+
+.BelowMargin{
     display: flex;
     justify-content: space-between;
     margin: 1.5% 12% 1.5% 12%;
     font-weight: 800;
 }
-.BelowMargin-Web a:hover{
+.BelowMargin a:hover{
   color:#63BB54;
 }
-.BelowMargin-Web a
+.BelowMargin a
 {
     color:white;   
     text-align: center;  
@@ -366,26 +370,18 @@ a{
     font-size: 15px;
     font-family: 'Inter';
 }
-.BelowMargin-Web a i{
+.BelowMargin a i{
     font-size: 20px;
 }
-.BelowMargin-mobile{
-  display: none;
-  margin: 1.5% 12%;
-  font-weight: 800;
-}
-.BelowMargin-mobile p
+
+.BelowMargin p
 {
   color:white;     
   margin: 1%;
   font-size: 20px;
   font-family: 'Inter';
 }
-.BelowMargin-mobile a i{
-  margin-left: 5%;
-  color: #FFFFFF;
-  font-size: 20px;
-}
+
 .register{
     font-family: 'Manrope';
   font-weight: Bold;
