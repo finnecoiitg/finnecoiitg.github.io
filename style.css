@@ -32,13 +32,17 @@
 /* Display */
 html{
     scroll-behavior: smooth;
+    /* height: 100%;
+    height: 100vh; */
   }
 
 body{
     background-color: black;
     font-weight: 800;
     max-width:100%;
-    
+    /* height: 100%;
+    height: 100vh;
+     */
 }
 a{
     text-decoration: none;
@@ -72,7 +76,7 @@ a{
 
   
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .navbar a{display: none;}
   .logo{display: block;}
   .navbar a.burger {
@@ -82,18 +86,18 @@ a{
   }
   .navbar{
     justify-content: right;
-    margin-right: 5%;
+    padding-right: 5%;
   }
   .responsive{
     display: block;
     padding-left: 5%;
     float: right ;
-
+    background-color: black;
     margin-top: -10%;
   }
  
   .header{
-    margin-bottom: -5%;
+    margin-bottom: -3%;
     background-color: black;
   }
   .navbar.responsive a:not(:first-child) {
@@ -101,14 +105,87 @@ a{
     display: block;
     padding-top: 5%;
   }
+  #main p{
+    font-weight: 100 !important;
+    text-align: center !important;
+  }
+  #main #right{
+    max-width:0%;
+    display:none;
+  }
+  #main{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 100%;
+    margin-bottom: 15% !important;
+  }
+  #main #left{
+    max-width: 100% !important; 
+    text-align: center;
+  }
+  #main #left h1{
+    display: none;
+  }
+  #main-content{
+    display: block !important;
+  }
+  #content{
+    text-align: center;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  #content p{
+    text-align: center !important;
+    margin-bottom: 5.5%;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 20px;
+    padding: 5%;
+  }
+  #content a{
+    display:inline !important;
+    
+  }
+  .bottom_boxes_container_index{
+    display: none !important;
+    margin: 0%;
+    
+  }
+  #testimonials{
+    display: none;
+  }
+  .Footer{
+    display: block !important;
+    text-align: center;
+  }
+  .DownloadFreeResources{
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+  }
+  .DownloadFreeResources a{
+    display: inline !important;
+  }
+  .Flex{
+    justify-content: space-evenly;
+    text-align: left;
+  }
+  .BelowMargin-Web{
+    display: none !important;
+  }
+  .BelowMargin-mobile{
+    display: block !important;
+  }
+
+
 }
 /* index content */
 #main{
     margin-top: 3%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
+    /* height: 100vh; */
 }
 #main #left{
     height: 100%;
@@ -132,6 +209,11 @@ a{
     color:white;
     text-align: center;
 }
+#main-content a{
+  color: #FFFFFF;
+  display: none;
+  
+}
 .typewriter {
     color: #fff;
     text-decoration: none;
@@ -139,8 +221,7 @@ a{
     border-right: 3px solid white;
     white-space: nowrap;
     animation: blink-caret .75s step-end infinite;
-    
-  }
+}
 
 .bottom_boxes_container_index{
   
@@ -156,17 +237,7 @@ a{
 
 }
 
-@media (max-width: 1000px){
 
-  .bottom_boxes_container_index{
-    grid-template-columns: 40% 40%;
-    row-gap: 4%;
-    margin-left: 10%;
-    column-gap: 7%;
-    
-  }
- 
-}
 
 .bg_img_index {
   max-height: 200px;
@@ -211,6 +282,7 @@ a{
     padding: 0.2% 2%;
     border-left: 5px solid #999;
     font-size: 3em;
+    text-align: left;
   }
   blockquote:before {
     display: none;
@@ -266,6 +338,10 @@ a{
 .DownloadFreeResources{
   margin-right: 10%;
 }
+.DownloadFreeResources a{
+  display: none;
+}
+
 .Resources
 { 
   
@@ -273,16 +349,16 @@ a{
   margin-left: 3%;
 }
 
-.BelowMargin{
+.BelowMargin-Web{
     display: flex;
     justify-content: space-between;
     margin: 1.5% 12% 1.5% 12%;
     font-weight: 800;
 }
-.BelowMargin a:hover{
+.BelowMargin-Web a:hover{
   color:#63BB54;
 }
-.BelowMargin a
+.BelowMargin-Web a
 {
     color:white;   
     text-align: center;  
@@ -290,8 +366,25 @@ a{
     font-size: 15px;
     font-family: 'Inter';
 }
-.BelowMargin a i{
+.BelowMargin-Web a i{
     font-size: 20px;
+}
+.BelowMargin-mobile{
+  display: none;
+  margin: 1.5% 12%;
+  font-weight: 800;
+}
+.BelowMargin-mobile p
+{
+  color:white;     
+  margin: 1%;
+  font-size: 20px;
+  font-family: 'Inter';
+}
+.BelowMargin-mobile a i{
+  margin-left: 5%;
+  color: #FFFFFF;
+  font-size: 20px;
 }
 .register{
     font-family: 'Manrope';
@@ -341,60 +434,25 @@ a{
 /* TEAMS */
 
 
-
-
-
-
-
-
-.biggest_box_teams{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.container{
-  
-  position: relative;
-  width: 100%;
-  font-size: 14px; 
-  font-family: Inter , sans-serif;
-  padding: 0px;
-  margin: 0px;
-  align-self: center;
-  max-width: 1050px;
-}
-
-.socialEmpowerment {
-  margin-bottom: 20px;
-}
-
-.whiteHeading {
-  margin: 0px;
-  padding: 0px;
-  color: rgb(255,255,255);
-  margin-bottom: 2.2%;
-  font-weight: 800;
-  font-size: 36px;
-  opacity: 1;
-  text-align: left;
-}
-.quant_box ,
-.capital,
-.defi,
-.socials{
+.greyBox{
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 5.5%;
   background-color: rgba(39, 39, 39, 1);
   border-radius: 20px;
   padding: 4%;
+  color: white;
+  font-family: 'Inter';
 }
 
 .horizontal_line{
+  margin-left: 10%;
+  margin-right:10%;
   width: 48%;
   height: 5px;
   background-color: rgb(72, 171, 55);
   border: none;
   border-radius: 50px;;
-  margin: 0px;
   margin-top: 4%;
 }
 
@@ -405,6 +463,8 @@ a{
   font-size: 30px;
   margin-top: 3%;
   margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: Manrope , sans-serif;
 }
 .greenLine{
@@ -421,12 +481,6 @@ a{
   font-weight: 600;
 }
 
-.Para {
-  color: white;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-}
 
 .greenSubHeading{
   color:  rgb(72, 171, 55);
@@ -446,15 +500,14 @@ a{
 
 
 .bottom_boxes_container{
-  
+  margin-left: 10%;
+  margin-right: 10%;
   display: grid;
   grid-template-columns: 28% 28% 28%;
   column-gap: 5%;
   margin-top: 2%;
-  margin-left: 5%;
   font-size: 14px; 
   font-family: Inter , sans-serif;
-  max-width: 1200px;
 
 }
 
@@ -575,6 +628,11 @@ right: 5%;
 bottom: 3%;
 }
 
+.teams_link_box{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Inter';
+}
 
 
 .teams_link_grid{
@@ -1695,6 +1753,9 @@ bottom: 3%;
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
+  }
+  #content a{
+    display: none;
   }
   #content p{
     text-align: justify;
