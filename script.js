@@ -88,5 +88,6 @@ window.onload = function() {
           new TxtType(elements[i], JSON.parse(toRotate), period);
         }
     }
+    alert("This website is currently under development. Visit https://finnecoiitg.github.io/courses/Options/ for the Introductory Options course.");
 };
 
