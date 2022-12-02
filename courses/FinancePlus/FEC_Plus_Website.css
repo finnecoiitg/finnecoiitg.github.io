@@ -157,6 +157,7 @@
     box-sizing: border;
     padding: 0px;
     margin: 0px;
+    /* filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797'); */
   }
   #welcome {
     display: flex;
@@ -172,9 +173,10 @@
   .divider {
     width: 1px;
     height: 65vh;
+    /* margin: 6px 0; */
     background: white;
   }
-  .fec-logo {
+  .cna-logo {
       width: 10vw;
       padding: 0px;
   }
@@ -208,13 +210,6 @@
     font-weight: bold;
     background: #000030;
     color: white;
-  }
-  #welcome > button:hover {
-    background: white;
-    color: #000030;
-  }
-  .section-layout {
-    margin: 0px;
   }
   .regbutton {
     margin: 10px auto;
@@ -257,7 +252,25 @@
     border: 3px solid gray;
     background: gray;
   }
+  .navbutton {
+    margin: 10px auto;
+    border: 3px solid #000030;
+    padding: 20px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-weight: bold;
+    background: #000030;
+    color: white;
+  }
+  .navbutton:hover {
+    background: white;
+    color: #000030;
+    border: 3px solid #39B54A;
+  }
   .right-content {
+    /* grid-column-start: 2;*/
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -292,7 +305,7 @@
     justify-items: center;
     margin-top: 80px;
     margin-left: 0px;
-    margin-bottom: 50px;
+    margin-botom: 50px;
   }
   #duration {
     grid-area: duration;
@@ -330,7 +343,62 @@
     text-align: left;
     font-family: 'Lato', calibri;
   }
-
+  /* Testimonials */
+  blockquote {
+    margin: 10px 50px;
+    padding: 0.5em;
+    border-left: 5px solid #999;
+    font-size: 3em;
+  }
+  blockquote:before {
+    display: none;
+  }
+  blockquote:not(:first-of-type) {
+    margin-top: 0.5em;
+  }
+  blockquote p {
+    color: #555;
+    font-size: 15pt;
+    line-height: 1.4;
+    font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  }
+  blockquote footer {
+    margin-top: 0.5em;
+    padding: 0;
+    color: #777;
+    font-size: 12pt;
+    text-align: left;
+    font-style: italic;
+  }
+  blockquote footer:before {
+    content: '— ';
+  }
+  blockquote:nth-of-type(even) {
+    text-align: right;
+    border-left: none;
+    border-right: 5px solid #999;
+  }
+  blockquote:nth-of-type(even) footer {
+    text-align: right;
+  }
+  blockquote:nth-of-type(even) footer:before {
+    content: '';
+  }
+  blockquote:nth-of-type(even) footer:after {
+    content: ' —';
+  }
+  @element 'blockquote' and (min-width: 300px) {
+    blockquote {
+      padding: 1em 20% 1em 1em;
+    }
+    blockquote p {
+      font-size: 14pt;
+    }
+    blockquote:nth-of-type(even) {
+      padding: 1em 1em 1em 20%;
+    }
+   
+  }
   /* Timeline */
   /* Import */
   @font-face {
@@ -381,11 +449,37 @@
     font-weight: 700;
     src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype');
   }
+  /* CSS Reset */
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 /* HTML5 display-role reset for older browsers */
-
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
 	line-height: 1;
 }
@@ -400,7 +494,12 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+  /* Variables */
+  /* Base */
   strong {
     font-weight: 600;
   }
@@ -478,7 +577,135 @@ q:before, q:after {
     content: "";
     top: 5px;
   }
-
+  .project-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+  }
+  .project-tile,
+  .project-tile > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 10vw;
+    position: relative;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .project-tile:hover .image {
+    opacity: 0.3;
+  }
+  .project-tile:hover .middle {
+    opacity: 1;
+  }
+  .pr-text {
+    color:#000030;
+    font-size: 16px;
+    padding: 16px 32px;
+    radius: 50%;
+    font-family: 'Lato', calibri;
+    text-align: center;
+  }
+  .team {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evely;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .card {
+    position: relative;
+    width: 30%;
+    height: 50vh;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  .card:before,
+  .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index: -1;
+  }
+  .card:hover:before {
+    transform: rotate(20deg);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card:hover:after {
+    transform: rotate(10deg);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card .imgBx {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #222;
+    transition: 0.5s;
+    z-index: 1;
+  }
+  .card:hover .imgBx {
+    bottom: 80px;
+  }
+  .card .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card .details {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 60px;
+    text-align: center;
+  }
+  .card .details h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+    text-transform: uppercase;
+  }
+  .card .details h2 span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #f38695;
+    display: block;
+    margin-top: 5px;
+  }
   /* Contacts */
   .contact-section {
     display: flex;
@@ -520,6 +747,44 @@ q:before, q:after {
       margin: 0px;
       padding: 0px 10px;
       align-items: center;
+    }
+    #navigation {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      max-width: 100vw;
+      width: 98vw;
+      min-width: 80vw;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0px;
+      margin: 0px;
+      /*width: 33.33%;
+    min-width: 25%;
+    margin: 0px;
+    float: left;*/
+      /*margin: 2.5%;*/
+      text-align: left;
+      padding: 0px;
+      background: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      z-index: 10;
+      overflow: hidden;
+    }
+    .register-nav {
+      display: none;
+    }
+    .nav-link {
+      margin: 0px;
+      padding: 25px 8px;
+      text-decoration: none;
+      font-family: 'Saira', calibri;
+      font-size: 2em;
+      letter-spacing: 0.5px;
+      font-weight: bold;
+      color: #000030;
+      text-transform: capitalize;
     }
     .right-content {
       /* grid-column-start: 2;*/
@@ -564,16 +829,34 @@ q:before, q:after {
       margin-left: 50px;
       max-width: 98%;
       font-size: 2em;
-      }
-      .timeline h1, h2, h3 {
+      
+      h1, h2, h3 {
         font-size: 2.5em;
-      }}
+      }
+    }
       #projects {
       width: 80vw;
       margin: 10px;
       padding: 0px;
     }
     
+    .project-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+    }
+    .project-tile {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 40vw;
+      position: relative;
+      margin: 25px auto;
+    }
     .sum-title {
       font-size: 5vw;
     }
@@ -584,6 +867,22 @@ q:before, q:after {
     .suga-container {
         max-width: 90vw;
     }
+    .team {
+      width: 60vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evely;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin: auto;
+      padding: auto;
+    }
+    .card {
+      width: 100%;
+      height: 40vh;
+    }
+    
+  }
   /* Contacts */
   .contact-section {
     display: flex;
