@@ -22,10 +22,12 @@ if (window.innerWidth < 1000) {
     assignment1.style.flexDirection = 'column';
     assignment1.style.alignItems = 'flex-start';
     assignment1.style.marginLeft = '1rem';
-    // assignment2.style.flexDirection = 'column';
-    // assignment2.style.alignItems = 'flex-start';
-    // assignment3.style.flexDirection = 'column';
-    // assignment3.style.alignItems = 'flex-start';
+    assignment2.style.flexDirection = 'column';
+    assignment2.style.alignItems = 'flex-start';
+    assignment3.style.flexDirection = 'column';
+    assignment3.style.alignItems = 'flex-start';
+    assignment2.style.marginLeft = '1rem';
+    assignment3.style.marginLeft = '1rem';
     title.style.fontSize = '4rem';
     paraText.style.fontSize = '1.8rem';
     title2.style.fontSize = '4rem';
