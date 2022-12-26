@@ -301,10 +301,11 @@
   #summary {
     grid-area: content;
     display: grid;
-    grid-template-areas: "duration prerequisite projects";
+    grid-template-areas: "duration prerequisite   AMA projects";
     justify-items: center;
-    margin-top: 80px;
-    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-left: auto;
     margin-botom: 50px;
   }
   #duration {
@@ -313,6 +314,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 5px;
+    margin-top: 20px;
     border-left: 2px solid darkgray;
   }
   #prerequisite {
@@ -321,26 +323,36 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 5px;
-    margin-left: 10px;
+    margin-top: 20px;
     border-left: 2px solid darkgray;
+  }
+  #AMA{
+    grid-area: AMA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin-top: 20px;
+    border-left: 2px solid darkgray; 
   }
   #num-projects {
     grid-area: projects;
     display: flex;
-    margin-left: 10px;
+    
     flex-direction: column;
     justify-content: space-evenly;
     padding: 5px;
+    margin-top: 20px;
     border-left: 2px solid darkgray;
   }
   .sum-title {
-    font-size: 1.7em;
+    font-size: 1.3em;
     color: #000030;
     text-align: left;
     font-family: 'Lato', calibri;
   }
   .sum-value {
-    font-size: 1.3em;
+    font-size: 1em;
     color: #000030;
     text-align: left;
     font-family: 'Lato', calibri;
@@ -835,6 +847,11 @@ table {
       h1, h2, h3 {
         font-size: 2.5em;
       }
+    }
+    #summary{
+      grid-template-areas: "duration prerequisite"
+                            "AMA projects";
+      justify-items: flex-start;
     }
       #projects {
       width: 80vw;

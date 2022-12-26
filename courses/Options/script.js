@@ -9,16 +9,16 @@ var registerBtn = document.getElementById('register-btn');
 var assignment1 = document.getElementById('ass1');
 var assignment2 = document.getElementById('ass2');
 var assignment3 = document.getElementById('ass3');
+
 var title = document.getElementById('paraTitle');
 var paraText = document.getElementById('paraText');
 var title2 = document.getElementById('paraTitle2')
-if (window.innerWidth < 1000) {
+if (window.innerWidth < 900) {
     welcome.style.flexDirection = 'column';
     // logo.style.marginTop = '5rem';
     // logo.style.marginBottom = '5rem';
     // logo.style.width = '15vw';
     // welcome.style.height = '100%';
-
     welcome.style.justifyContent = 'center';
     welcomeTitle.style.fontSize = '1.5rem';
     registerBtn.style.padding = "45px 75px";
