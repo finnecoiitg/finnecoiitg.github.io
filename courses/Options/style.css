@@ -321,11 +321,13 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 5px;
+    margin-left: 10px;
     border-left: 2px solid darkgray;
   }
   #num-projects {
     grid-area: projects;
     display: flex;
+    margin-left: 10px;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 5px;
